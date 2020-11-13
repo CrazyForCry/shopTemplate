@@ -1,0 +1,704 @@
+/*滑动菜单li移入效果*/
+.bookClick{
+	color: #fff;
+	background-color: #ff6601;
+}
+/*对应内容区显示或隐藏*/
+.bookDisblock{
+	display: block;
+}
+.bookDisnone{
+	display: none;
+}
+
+
+
+/*顶部搜索栏*/
+#serch_top{
+		opacity: 0.9;
+	z-index: 10000;
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 50px;
+	background-color: #fe6001;
+}
+.serch_top_left{
+	text-align: center;
+	width: 400px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 28px;
+	font-family: "黑体";
+}
+/*搜索框*/
+#serch_top_form{
+	width: 440px;
+	height: 38px;
+	margin: 6px  0 10px 0px;
+	float: left;
+	position: relative;
+}
+#serch_top_text::-webkit-input-placeholder{
+	color: #999;
+}
+#serch_top_text{
+	text-indent: 16px;
+	width: 440px;
+	height: 38px;
+	line-height: 38px;
+	border: solid 2px #fa3905;
+}
+/*搜索按钮*/
+#serch_top_sub{
+	border: 0;
+	position: absolute;
+	top:0px;
+	right: -2px;
+	width: 54px;
+	height: 40px;
+	
+	
+	background: #fa3905 url(../img/bgicon.png) no-repeat 4px 4px;
+}
+
+/*领券中心*/
+#ticket{
+	height: 180px;
+	position: fixed;
+	top: 100px;
+	right: 0px;
+}
+#ticket_title{
+	width: 40px;
+	height: 180px;
+	background: url(../img/home.png) no-repeat -215px 0px ;
+}
+
+#ticket_title_one{
+	width: 40px;
+	height: 40px;
+}
+#ticket_title_two{
+	width: 40px;
+	height: 100px;
+	position: relative;
+}
+#ticket_title_three{
+	width: 40px;
+	height: 40px;
+}
+#ticket_title_two_min {
+    width: 140px;
+    height: 100px;
+    background: url(../img/home.png) no-repeat -273px -40px blueviolet;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+/*楼层效果样式*/
+#floor{
+	z-index: 20000;
+	position: fixed;
+	top: 200px;
+	left: 312px;
+	
+}
+
+#floor_con{
+	width: 90px;
+}
+#floor_con li{
+	padding-left: 40px;
+	background-image: url(../img/fix_box_icon.png) ;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 40px;
+	width: 0px;
+	line-height: 40px;
+	text-align: center;
+	
+	font-size: 16px;
+}
+#floor_con li:nth-child(1){
+	background-position: 0px -36px;
+}
+#floor_con li:nth-child(2){
+	background-position: 0px -77px;
+}
+#floor_con li:nth-child(3){
+	background-position: 0px -77px;
+}
+#floor_con li:nth-child(4){
+	background-position: 0px -160px;
+}
+#floor_con li:nth-child(5){
+	background-position: 0px -198px;
+}
+#floor_con li:nth-child(6){
+	background-position: 0px -240px;
+}
+#floor_con li:nth-child(7){
+	background-position: 0px -282px;
+}
+
+
+
+
+
+/*banner部分和左边菜单*/
+#banner{
+	height: 434px;
+}
+/*左边菜单部分*/
+#navleft{
+	position: relative;
+	padding: 4px 0;
+	background-color: #f3f3f3;
+	width: 200px;
+	height: 426px;
+	float: left;
+}
+#navleft li{
+	
+	height: 30px;
+}
+#navleft li .title{
+	cursor: pointer;
+	width: 198px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-indent: 24px;
+
+	
+}
+
+/*移入显示的样式*/
+ #navleft li p.navleftlip{
+	color: #fe6900;
+	background-color: #ffffff;
+	z-index: 1200;
+	position: absolute;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 23px;
+	border: solid 1px #f60;
+	border-right: solid 1px #fff;
+}
+/*菜单展开部分*/
+ #navleft li .navleftcon{
+ 	z-index: 1000;
+ 	width: 580px;
+ 	height: 530px;
+ 	background-color: white;
+ 	border: solid 1px #f60;
+ 	
+ 	
+ 	
+ 	position: absolute;
+ 	top: -4px;
+ 	left: 199px;
+ 	
+ 	
+ 	display: none;
+ }
+#navleft li .navleftcon .navleftconmin{
+	padding: 10px 70px 30px 36px;
+}
+#navleft li .navleftcon .navleftconmin p{
+	border-bottom: solid  2px #e6e6e6;
+	font-size: 16px;
+	color:  #fe6900;
+	margin-bottom: 6px;
+}
+#navleft li .navleftcon ul li{
+	float: left;
+	padding-right: 20px;
+}
+
+#bannerCon{
+	
+	width: 1000px;
+	height: 434px;
+	float: right;
+}
+
+/*乐购今日推荐*/
+#recommend{
+	border-collapse: collapse;
+	height: 636px;
+}
+ .recommendTitle{
+ 	padding-bottom: 4px;
+	border-bottom: solid 8px #ff6701;
+	font-size: 30px;
+	color: #ff6701;
+}
+
+ .recommendTitle p{
+ 	
+	line-height: 40px;
+ 	float: left;
+ }
+
+/*小商品列表*/
+
+#recommend #recommendConMin{
+	margin: 0 11px;
+	border-right: solid 2px #f60;
+}
+#recommend .recommendConMin{
+	width: 194px;
+	height: 246px;
+	border-left: solid 2px #f60;
+	border-bottom: solid 2px #f60;
+	float: left;
+}
+
+#recommend .recommendConMin div{
+	margin-left: 26px;
+	width: 148px;
+	height: 145px;
+}
+#recommend .recommendConMin p{
+	padding-left: 12px;
+}
+
+
+
+/*电子书*/
+#textbook{
+	height: 520px;
+	margin-top:30px;
+	
+}
+
+/*公共标题*/
+.publicTitle{
+	position: relative;
+
+	width: 100%;
+	height: 50px;
+	border-bottom: solid 8px #ff6701;
+}
+.publicTitle p{
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	height: 50px;
+}
+.publicTitle ul{
+	float: right;
+}
+.publicTitle ul li{
+	text-align: center;
+	float: left;
+	width: 100px;
+	height: 34px;
+	line-height: 40px;
+	font-size: 18px;
+	
+	margin:16px 17px 0px 8px;
+}
+.clickli{
+	background-color:  #ff6701;
+	color: white;
+}
+
+/*内容部分*/
+.textbookleft{
+	width: 904px;
+	float: left;
+}
+/*左边盒子公共样式*/
+ .textbookleftL{
+	float: left;
+	width: 240px;
+	 height: 456px;
+	background-color: #f9f9f9;
+}
+.leftConMin{
+	width: 74px;
+	float: left;
+	margin-right: 6px;
+}
+.leftConMin li{
+	    margin: 20px 10px;
+}
+/*中间盒子*/
+.textbookleft .textbookleftC{
+	float: left;
+	width: 330px;
+    height: 458px;
+}
+.textbookleft .textbookleftC .top{
+	width: 328px;
+	height: 227px;
+}
+/*小书内容*/
+.min{
+	border: #cdcdcd solid 2px;
+	height: 225px;
+    width: 163px;
+	float: left;
+}
+ .min .mintitle a{
+ 	display: block;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+.borderR{
+	border-right: none;
+}
+.borderB{
+	border-bottom: none;
+}
+.min .mincon{
+	color: red;
+	margin: 6px 0 10px 0;
+}
+ .min .minMonery{
+	color: red;
+	font-size: 18px;
+	}
+.min .minMonery span{
+		color: #666;
+		text-decoration: line-through;
+		margin-left: 10px;
+	}
+/*右边盒子*/
+.textbookleft .textbookleftR{
+	
+	float: left;
+	width: 334px;
+	 height: 458px;
+}
+
+
+
+#textbookright{
+	margin: 58px 0 0 16px;
+	float: left;
+	width: 276px;
+	height: 452px;
+	border: solid 2px #e7e7e7;
+}
+#textbookright #textbookrightTitle{
+	text-align: center;
+	font-size: 18px;
+}
+#textbookright li{
+	line-height: 46px;
+	width: 100%;
+	cursor: pointer;
+}
+#textbookright li .lispan{
+	display: inline-block;
+	height: 46px;
+    text-indent: 24px;
+    border-bottom: solid 2px #e7e7e7;
+    width: 256px;
+    
+}
+
+.textbook_con div{
+	width: 250px;
+	line-height: 20px;
+}
+.textbookrightred{
+	float: left;
+	text-indent: 6px;
+	display: inline-block;
+	color: red;
+	margin-right: 6px;
+}
+
+/*服装*/
+#cloth{
+	margin-top:68px;
+	height: 588px;
+	
+}
+
+
+
+/*公共服饰内容样式*/
+.leftCon{
+	float: left;
+	height: 500px;
+	width: 240px;
+}
+.centerCon{
+	float: left;
+	height: 500px;
+	width: 424px;
+}
+.centerConTop{
+	width: 424px;
+	height: 340px;
+}
+.centerConBut{
+	width: 424px;
+	height: 160px;
+}
+.centerConBut img{
+	width: 424px;
+	height: 160px;
+}
+.rightCon{
+	border-right: solid 2px #cdcdcd;
+	float: left;
+	width: 534px;
+	height: 500px;
+}
+.rightConTop{
+	float: left;
+	width: 176px;
+	height: 335px;
+	border-left: solid 2px #cdcdcd;
+	border-bottom: solid 2px #cdcdcd;
+}
+ .rightConTopTitle{
+	font-weight: 900;
+	font-size: 16px;
+	margin: 6px;
+}
+ .rightConTopCon{
+	color: #a7a7a7;
+	margin: 6px;
+}
+ .rightConTopnet{
+	font-weight: 900;
+	color: #fbeff0;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ea3927;
+	margin: 6px;
+}
+.rightConTop img{
+	margin-left: 2px;
+	width: 170px;
+	height: 244px;
+}
+.rightConBut{
+	float: left;
+	width: 176px;
+	height: 161px;
+	border-left: solid 2px #cdcdcd;
+	border-bottom: solid 2px #cdcdcd;
+}
+.rightConBut img{
+	margin-left: 2px;
+	width: 170px;
+	height: 106px;
+}
+.conImg{
+	width: 1226px;
+	height: 64px;
+	margin: auto;
+}
+
+
+/*户外运动*/
+#sport{
+	height: 660px;
+}
+
+/*童装*/
+#children{
+	height: 670px;
+}
+
+/*家居日用*/
+#household{
+	height: 600px;
+}
+#householdleft{
+	float: left;
+	width: 484px;
+	height: 498px;
+	border-left: solid 2px #cdcdcd;
+	border-bottom: solid 2px #cdcdcd;
+	
+}
+#householdright{
+	width: 712px;
+	float: left;
+	border-right: solid 2px #cdcdcd;
+}
+/*推广商品*/
+
+/*鼠标移入效果*/
+#generalize .generalizeCon .current{
+	background-color: #e6e6e6;
+}
+.generalizeC{
+ 	padding-bottom: 4px;
+	border-bottom: solid 8px #ff6701;
+}
+
+ .generalizeC p{
+ 	font-size: 30px;
+	color: #ff6701;
+	line-height: 40px;
+ 	float: left;
+ }
+ .generalizeC ul{
+ 	margin-right: 20px;
+ 	margin-top: 20px;
+ 	float: right;
+ }
+ .generalizeC ul li{
+ 	margin-right: 10px;
+ 	float: left;
+ 	width: 20px;
+ 	height: 20px;
+ 	border-radius: 10px;
+ 	background-color: #BFBFBF;
+ }
+ 
+#generalize  .generalizeC ul .current{
+  	background-color: #f60;
+  }
+#generalize{
+	height: 700px;
+}
+.generalizeMin{
+	width: 166px;
+	height: 254px;
+	padding: 46px  37px 0 37px;
+	float: left;
+}
+.generalizeMin div{
+	width: 166px;
+	height: 150px;
+}
+.generalizeMin h5{
+		color: #666;
+	font-size: 14px;
+}
+.generalizeMon{
+	color: red;
+	margin: 4px 0;
+}
+.generalizemin{
+	background-image: url(../img/bgicon.png);
+				background-repeat: no-repeat;
+				background-position:0px -86px;
+				text-indent: 30px;
+				color: #666;
+}
+.generalizemin span{
+	color: red;
+}
+
+
+#fanhuitop{
+	position: absolute;
+	top: -16px ;
+	left: 90%;
+	text-align: center;
+	
+	font-weight: 900;
+	font-size: 14px;
+	color: white;
+	width: 32px;
+	height: 50px;
+	background-color: #666;
+}
+
+/*banner*/
+.pptbox{
+				width: 400px;
+				height: 100px;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			.pptbox  .innerwrapper{
+				width:2800px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+				height: 100px;
+				list-style: none;
+				position: absolute;
+				left: -400px;
+			}
+			
+			.innerwrapper li
+			{
+				width:400px;
+				height:100px;
+				float: left;
+			}
+			.innerwrapper li a
+			{
+				display: block;
+			}
+			
+			.innerwrapper li a img
+			{
+				width: 400px;
+				height:100px;
+				display:block;
+			}
+			
+			.btnleft{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				left:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -10px 4px;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.btnright{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				right:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -54px 4px;
+				cursor: pointer;
+				z-index: 100;
+				
+			}
+			
+			/*控制按钮开始*/
+			
+			.controls{
+				width:96px;
+				position: absolute;
+				left:152px;
+				bottom:10px;
+				list-style: none;
+			}
+			.controls li{
+				width: 20px;
+				height:20px;
+				background-color: gold;
+				float: left;
+				margin-right:6px;
+				text-align: center;
+				border-radius:10px ;
+				cursor: pointer;
+			}
+			
+			.controls li.current
+			{
+				background-color:aqua;
+				color: brown;
+				
+			}
+			
+			/*控制按钮结束*/

@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--引入主页内容样式-->
+		<link rel="stylesheet" type="text/css" href="css/product.css"/>
+		<!--jquery引入-->
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--产品js   index引入-->
+		<script src="js/common.js"></script>
+		<script src="js/product.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+	  var showproduct = {
+		  "boxid":"showbox",
+		  "sumid":"showsum",
+		  "boxw":400,//宽度,该版本中请把宽高填写成一样
+		  "boxh":400,//高度,该版本中请把宽高填写成一样
+		  "sumw":60,//列表每个宽度,该版本中请把宽高填写成一样
+		  "sumh":60,//列表每个高度,该版本中请把宽高填写成一样
+		  "sumi":7,//列表间隔
+		  "sums":5,//列表显示个数
+		  "sumsel":"sel",
+		  "sumborder":1,//列表边框，没有边框填写0，边框在css中修改
+		  "lastid":"showlast",
+		  "nextid":"shownext"
+		  };//参数定义	  
+	 $.ljsGlasses.pcGlasses(showproduct);//方法调用，务必在加载完后执行
+  });
+</script>
+	</head>
+	<body>
+		<div id="top" class="box">
+			<div class="box1200 clear">
+				<p id="topleft" class="left">legochina.cn</p>
+				<p id="topright" class="right">
+					<span class="topspan">欢迎光临乐购，请</span>
+					<a class="graya" href="enter.html">登录</a>
+					<span class="topspan">\</span>
+					<a class="reda" href="login.html">注册</a>
+				</p>
+			</div>
+			
+		</div>
+			<!--导航栏-->
+		<div id="navmax" class="box1200 clear">
+			<div id="logo">
+				<img src="img/logoduhaoshu.png"/>
+			</div>
+			<div class="box1200 clear h30" >
+				<form id="navmaxform" action="#" method="post" >
+					<input id="navmaxtext" type="text" name="text" placeholder="创意文具" />
+					<input id="navmaxsub" type="button" value=""/>
+				</form>
+				<div id="navmaxshop" class="clear">
+					<div id="shopminleft">
+						购物车
+					</div>
+					<div id="shopminright">
+						我的订单
+					</div>
+				</div>
+			</div>
+			
+			<ul id="navmaxcon" class="clear">
+				<li>图书</li>
+				<li>电子书</li>
+				<li>原创文学</li>
+				<li>服装</li>
+				<li>运动户外</li>
+				<li>孕婴童</li>
+				<li>家具</li>
+				<li>创意文具</li>
+				<li>地方特产</li>
+				<li>海外购</li>
+				<li>电器城</li>
+			</ul>
+		</div>
+		
+		
+		<!--主内容区-->
+		<div id="display" class="box">
+			<!--书签-->
+			<div id="displayTop" class="box1200">
+				<a href="#" class="displayTopTitle">图书</a>&gt;
+				<a  href="#" class="displayTopCon">小说</a>&gt;
+				<a href="#"  class="displayTopCon">情感/家庭/婚姻</a>&gt;
+				<a  href="#" class="displayTopCon">博集大卷</a>&gt;
+				<a href="#" class="displayTopCon">她和他	</a>		
+			</div>
+			<!--书的展示区-->
+			<div id="displayCon" class=" box1200 clear">
+				<div id="displayConBook">
+					<div id="showbox">
+					  <img src="img/demo-ebook.jpg" width="158" height="116" />
+					  <img src="img/ebookLeft.jpg" width="240" height="286" />
+					  
+					</div><!--展示图片盒子-->
+					<div id="showsum"></div><!--展示图片里边-->
+					<p class="showpage">
+					  <a href="javascript:void(0);" id="showlast"> < </a>
+					  <a href="javascript:void(0);" id="shownext"> > </a>
+					</p>
+					<div class="bianma">
+					商品编码：11950959
+					</div>
+				</div>
+				
+				<div id="displayConShop">
+					<p>她和他</p>
+					<p>《偷影子的人》作者马克•李维重磅新作，法国连续60周在榜，销量突破120万册</p>
+					<p>[法]马克•李维著；杨亦雨译</p>
+					<div id="displayConShopM">
+						<p>乐购价：<span class="redMonery">￥26.20</span>[6.9折][定价：<span class="oldMonery">￥38.00</span>](降价通知)</p>
+						<p>促销信息:<span>满减 &nbsp;&nbsp;每满150.00元，可减50.00元现金 </span> <span>详情&gt;&gt;</span> </p>
+						<p>领券:<img src="img/youhui.png"/><img src="img/youhui.png"/></p>
+					</div>
+					
+					<div id="shoping" class="clear">
+					
+						<div id="shopingSelect">
+							种类选择：
+						</div>
+						<div>
+							<div class="shopingSelect">
+								平装版
+								<img class="xuanzhong" src="img/xuanzhong.png"/>
+							</div> 
+							<div class="shopingSelect">
+								精装版
+								<img class="xuanzhong" src="img/xuanzhong.png"/>
+							</div> 
+						</div>
+						
+					</div>
+					<div class="clear">
+						<div id="number">
+						
+					
+							<input type="text" value="1" disabled="disabled" />
+							<div >
+								<div class="numberJia">+</div>
+								<div class="numberjian">-</div>
+							</div>
+						</div>
+						<div id="gouwu">
+							加入购物车
+						</div>
+					</div>
+					
+					
+					<div class="tishi">温馨提示：支持7天无理由退货</div>
+				</div>
+			</div>
+		</div>
+		<!--人气单品展示区-->
+		<div id="show" class="box1200">
+			<div id="showTitle">
+				<p>人气单品</p>
+			</div>
+			
+				
+				
+			<!--小个商品-->
+			<div class="clear" id="showCon">
+				<div class="showConMin showConMinClick">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+				<div class="showConMin ">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+				<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+				<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+				<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+				
+			</div>
+			
+		</div>
+					<!--主内容区-->
+		<div id="content" class="box1200 clear">
+						<!--左边-->
+						
+			<div id="contentL" class="clear">
+				<p>看了又看</p>
+				<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+					<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+					<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+					<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+					<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+					<div class="showConMin">
+					<div class="showConMinBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<div><img src="img/8zhe.png"/></div>
+					<p>白夜行    &nbsp;东野上吾</p>
+					<p>推荐：<img src="img/xingxing.png"/></p>
+					<p><span>￥38.00</span> <span>￥58.00</span></p>
+				</div>
+			
+			</div>
+			
+			
+			
+			
+			<!--右边内容部分-->		
+			<div id="contentR">
+				<div id="contentRTitle" class="clear">
+					<p>商品介绍</p>
+					<p class="titleclick">评价（9999）</p>
+				</div>
+				
+				<div>
+					<div  class="contentR_con contentR_con_min  disnone">
+					<div>
+						<img src="img/jieshao3.png"/>
+						<img src="img/jieshao2.png"/>
+						<img src="img/jieshao1.png"/>
+					</div>
+					<p>作品简介</p>
+					<p> 她叫米娅，来自英国，当红女演员，却只想远离萧瑟的伦敦，聆听感动与欢笑的话语。</p>
+					<p> 他叫保罗，来自美国，曾经的建筑设计师，</p>
+				</div>
+					<div class="contentR_con">
+							<!--评价列表-->
+							<div id="contentRp" class="clear">
+								<div id="contentRpone" class="clear">
+									<div class="contentRpone1">
+										<p>98%</p>
+										<p>好评度</p>
+									</div>
+									<div class="contentRpone2">
+										<div class="left">
+											<p>好评（98%）</p>
+											<p>中评（2%）</p>
+											<p>差评（0%）</p>
+										</div>
+										<div class="left">
+											<img src="img/red1.png"/><br />
+											<img src="img/red2.png"/><br />
+											<img src="img/red3.png"/>
+										</div>
+									</div>
+									<div class="contentRpone3">
+										<ul>
+											<li>
+												<p class="left">洲子</p>
+												<p class="right">+0</p>
+											</li>
+											<li>
+												<p class="left">洲子</p>
+												<p class="right">+0</p>
+											</li>
+											<li>
+												<p class="left">洲子</p>
+												<p class="right">+0</p>
+											</li>
+											<li>
+												<p class="left">洲子</p>
+												<p class="right">+0</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+							
+							
+							
+							<ul class="pingjia">
+								<li><a class="current" href="#">全部评价</a></li>
+								<li><a href="#">好评</a></li>
+								<li><a href="#">中评</a></li>
+								<li><a href="#">差评</a></li>
+							</ul>
+							<div class="pingjia_con">
+								<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>111111下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						
+					
+					
+					</div>
+						
+							<div class="pingjia_con disnone">
+								<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>22222下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						
+					
+					
+					</div>
+							<div class="pingjia_con disnone">
+								<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>33333下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						
+					
+					
+					</div>
+							<div class="pingjia_con disnone">
+								<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>44444下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						<div class="contentRmin clear">
+							<div class="contentRminL">
+								<img src="img/xingxing2.png"/>
+								<p>下单后5天评论</p>
+								<p>2016-08-11</p>
+							</div>
+							<div class="contentRminC">
+								书的质量不错，很新，一点放久的潮味和臭味都没有，内容也值得一看，关键是价格真给力
+							</div>
+							<div class="contentRminR">
+								<p>洲**子</p>
+								<p>金牌会员</p>
+								<p>来自iPhone客户端</p>
+							</div>
+						</div>
+						
+					
+					
+					</div>
+							
+							
+							
+							
+							<div id="page">
+								<ul>
+									<li class="liclick">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li >
+									......
+									</li>
+									<li >
+										下一页
+									</li>
+								</ul>
+								
+							</div>
+			</div>
+					
+				</div>
+			</div>
+		</div>
+
+		
+		
+		
+			
+	<!--页脚-->
+		<div class="box" id="footer">
+			<p class="box recommendTitle"></p>
+			<div class="box" id="footermax">
+				<div id="footertop">
+					<div class="footertop">
+						
+					</div>
+					<div id="footertop2" class="footertop">
+						
+					</div>
+					<div id="footertop3" class="footertop">
+						
+					</div>
+					<div id="footertop4"  class="footertop">
+						
+					</div>
+				</div>
+			</div>
+			<div id="footerCenter" class=" clear">
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+			</div>
+			<div id="footerbut">
+				<a href="#">公司简介</a>|<a href="#">Investor&nbsp;Relations</a>|<a href="#">网站联盟</a>|<a href="#">乐购招商</a>|<a href="#">机构销售</a>|<a href="#">手机乐购</a>|<a href="#">官方Blog</a>|<a href="#">热词搜索</a>
+				<p><span>Copyrigth</span> <span>(C)</span> <span>乐购网</span> <span>2004-2016</span> <span>All</span> <span>Rights</span> <span>Reserved</span> </p>
+			</div>
+		</div>
+	</body>
+</html>

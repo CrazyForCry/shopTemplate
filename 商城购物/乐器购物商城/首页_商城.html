@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>首页_商城</title>
+<meta name="keywords" content="商城">
+<meta name="description" content="商城">
+<meta name="author" content="山东商讯在线 http://www.sdsoon.com/">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/banner.index.js"></script>
+<script type="text/javascript" src="js/hun.index.js"></script>
+</head>
+<body>
+<!--web-top start-->
+<div class="w-all w-minw bg-cf5f5f5 ovhidden">
+    <div class="w-main m-auto">
+        <div class="fl"> <span class="fs-14 line-h30 ftc-6b6b6b dsblock fl"> 送货至：山东省,济南市,市辖区 </span> <a href="#" class="tx-ind dsblock w-12 fl bg_icon add-sele m-l-5 hg-30">地址选择</a> <a href="#" class="dsblock fl line-h30 fs-14 ftc-e23435 m-l-40">Hi.请登录</a> </div>
+        <ul class="topnav fr">
+            <li class="fl"><a href="#" class="fs-14 ftc-6b6b6b line-h30 fl m-l-20 m-r-20">我的订单</a></li>
+            <i class="dsblock bg_icon topnav_line fl tx-ind w-1 hg-30">我的订单</i>
+            <li class="fl"><a href="#" class="fs-14 ftc-6b6b6b line-h30 fl m-l-20 m-r-20">我的收藏</a></li>
+            <i class="dsblock bg_icon topnav_line fl tx-ind w-1  hg-30">我的收藏</i>
+            <li class="fl"><a href="#" class="fs-14 ftc-6b6b6b line-h30 fl m-l-20 m-r-20">我的地址</a></li>
+            <i class="dsblock bg_icon topnav_line fl tx-ind w-1  hg-30">我的地址</i>
+            <li class="fl"><a href="#" class="fs-14 ftc-6b6b6b line-h30 fl m-l-20 m-r-20">帮助中心</a></li>
+            <i class="dsblock bg_icon topnav_line fl tx-ind w-1  hg-30">帮助中心</i>
+            <li class="fl"><a href="#" class="fs-14 ftc-6b6b6b line-h30 fl m-l-20">网站导航</a></li>
+        </ul>
+    </div>
+</div>
+<!--web-top end-->
+<div class="w-main m-auto m-t-30 m-b-16 ovhidden"> 
+    <!--web logo start--> 
+    <a href="#" class="logo_top fl"><img src="images/logo_top.gif" width="195" height="56" alt="商城logo"/></a> 
+    <!--web logo end--> 
+    <!--web search start-->
+    <div class="search m-l-230 w-455 m-t-5 fl">
+        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()" class="search-form">
+            <input class="w-380 p-l-8 fl fs-14 ftc-999999 bd-s-ce23435 line-h36 hg-36" type="text" name="keywords" id="keyword" value="请输入关键字" onfocus="if(this.value == '请输入关键字')this.value = ''" onblur="if(this.value == '')this.value='请输入关键字'" autocomplete="off">
+            <input type="hidden" value="k1" name="dataBi">
+            <button type="submit" class="w-65 line-h38 hg-38 bg-ce23435 bg_icon secbtn tx-ind fl">提交</button>
+        </form>
+        <div class="w-455 fl" id="hotkeywords"> <a href="#" class="hot-item ftc-4b4b4b fs-14 line-h30 m-r-15 fl">旅行包</a> <i class="dsblock bg_icon topnav_line fl tx-ind w-1 hg-30">旅行包</i> <a href="#" class="hot-item ftc-4b4b4b fs-14 line-h30 m-r-15 m-l-15 fl">皮鞋</a> <i class="dsblock bg_icon topnav_line fl tx-ind w-1  hg-30">皮鞋</i> <a href="#" class="hot-item ftc-4b4b4b fs-14 line-h30 m-r-15 m-l-15 fl">年货先到家</a> <i class="dsblock bg_icon topnav_line fl tx-ind w-1  hg-30">年货先到家</i> <a href="#" class="hot-item ftc-4b4b4b fs-14 line-h30 m-r-15 m-l-15 fl">皮革</a> </div>
+    </div>
+    <!--web search end--> 
+    <!--web Shopping Cart start--> 
+    <a class="w-160 bd-s-ce23435 line-h38 hg-38 fr curpter text-c m-t-5 fs-14 ftc-999999 dsblock"> <i class="dsblock bg_icon cart_icon w-26 curpter m-l-15 tx-ind fl">购物车</i> 我的购物车 <i class="dsblock  bg_icon cartnum w-17 curpter m-r-10 fr fs-12 ftc-ffffff">55</i> </a> 
+    <!--web Shopping Cart end--> 
+</div>
+<!--web nav start-->
+<div class="w-all w-minw ovhidden bd-bs-ed4f2c">
+    <div class="w-main m-auto">
+        <ul class="w-main nav">
+            <li class="fl"><a href="首页_商城.html" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45 navactive">首页</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">商城</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">活动专区</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">限时抢购</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">天天特价</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">优惠套餐</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">品牌街</a></li>
+            <li class="fl"><a href="#" class="fl dsblock p-l-13 p-r-13 m-l-20 fs-16 ftc-626262 line-45">我能兑换</a></li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+<!--web nav end--> 
+<!--web banner start-->
+<div class="w-all w-minw banner">
+    <div id="full-screen-slider">
+        <ul id="slides">
+            <li style="background:url('ban/ban01.jpg') center top no-repeat;"><a href="javascript:void(0)"></a></li>
+            <li style="background:url('ban/ban02.jpg') center top no-repeat;"><a href="javascript:void(0)"></a></li>
+            <li style="background:url('ban/ban03.jpg') center top no-repeat;"><a href="javascript:void(0)"></a></li>
+        </ul>
+    </div>
+</div>
+
+<!--web banner end--> 
+<!--web Notice start-->
+<div class="w-main m-auto">
+    <h2 class="fs-16 ftc-6b6b6b font-b9 m-t-15 line-h36">通知公告</h2>
+    <div class="scroll_notice w-main p-b-15">
+        <div class="bd ovhidden hg-35"> <span class="dsblock bg_icon fl w-18 notice_icon tx-ind hg-35">通知公告</span>
+            <ul class="infoList w-1170 fr ovhidden">
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+                <li class="fl w-all line-h35"><a href="#" class="dsblock w-all line-h35 fs-14 ftc-0a0a0a one_hidden">投多少送多少！有钱可以任性，也可以放在商城！</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--web Notice end--> 
+<script type="text/javascript">
+    jQuery(".scroll_notice").slide({mainCell:".bd ul",autoPlay:true,effect:"topMarquee",vis:5,interTime:50});
+</script> 
+<!--web home Sales charts start-->
+<div class="w-1220 m-auto bd-ts-e6e6e6 ovhidden">
+    <div class="scroll_suv ovhidden w-1220">
+        <div class="hd m-t-25 ovhidden w-main m-auto">
+            <h2 class="fs-20 ftc-6b6b6b font-b9 fl"><span class="w-28 dsblock tx-ind bg_icon suv_icon hg-30 fl m-r-12">销量排行榜</span>销量排行榜</h2>
+            <div class="fr"> <a class="dsblock curpter w-26 hg-30 fl bg_icon prev prev_icon m-r-5"></a> <a class="dsblock curpter w-26 hg-30 fl bg_icon next next_icon"></a> </div>
+        </div>
+        <div class="bd w-1220">
+            <ul class="piclist" id="piclist">
+                <li> <i>1</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>2</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>3</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>4</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>5</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>6</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>7</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>8</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>9</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li> <i>10</i>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".scroll_suv").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
+       
+    </script> 
+</div>
+<!--web home Sales charts end--> 
+<!--web home New Arrivals start-->
+<div class="w-1220 m-auto bd-ts-e6e6e6 ovhidden m-t-30">
+    <div class="scroll_suv ovhidden w-1220">
+        <div class="hd m-t-25 ovhidden w-main m-auto">
+            <h2 class="fs-20 ftc-6b6b6b font-b9 fl"><span class="w-28 dsblock tx-ind bg_icon nsale_icon hg-30 fl m-r-12">新品上架</span>新品上架</h2>
+            <div class="fr"> <a class="dsblock curpter w-26 hg-30 fl bg_icon prev prev_icon m-r-5"></a> <a class="dsblock curpter w-26 hg-30 fl bg_icon next next_icon"></a> </div>
+        </div>
+        <div class="bd w-1220">
+            <ul class="piclist">
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".scroll_suv").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
+    </script> 
+</div>
+<!--web home New Arrivals end--> 
+<!--web home Advertisement start-->
+<div class="w-main m-auto m-t-15"> <a href="#" class="dsblock w-595 hg-120 fl homead"><img src="pics/ad01.jpg" alt=""/></a> <a href="#" class="dsblock w-595 hg-120 homead fr"><img src="pics/ad02.jpg" alt=""/></a> </div>
+<!--web home Advertisement end--> 
+<!--web home Fiery scramble start-->
+<div class="w-1220 m-auto bd-ts-e6e6e6 ovhidden m-t-30 m-b-40">
+    <div class="scroll_suv ovhidden w-1220">
+        <div class="hd m-t-25 ovhidden w-main m-auto">
+            <h2 class="fs-20 ftc-6b6b6b font-b9 fl"><span class="w-28 dsblock tx-ind bg_icon fiery_icon hg-30 fl m-r-12">火热抢兑</span>火热抢兑</h2>
+            <div class="fr"> <a class="dsblock curpter w-26 hg-30 fl bg_icon prev prev_icon m-r-5"></a> <a class="dsblock curpter w-26 hg-30 fl bg_icon next next_icon"></a> </div>
+        </div>
+        <div class="bd w-1220">
+            <ul class="piclist">
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+                <li>
+                    <div class="pic fl"><a href="#"><img src="pics/sum01.jpg" /></a></div>
+                    <div class="title w-all fl m-t-18"><a href="#" class="dsblock w-all fl">
+                        <h3 class="fs-14 ftc-787878 text-l line-h18 tw_hidden fl">一组提案Demo，过稿，讲述了人与自然，车与动物的一种潜移默化的关系，感兴趣的可以看看</h3>
+                        <span class="dsblock fs-14 ftc-ff0000 fl line-h35">权益资产：3686</span></a></div>
+                    <div class="title w-all fl m-t-10"> <a href="#" class="dsblock w-104 bg_icon crash m-auto fs-14 line-h32">我要抢兑</a> </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".scroll_suv").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
+    </script> 
+</div>
+<!--web home Fiery scramble end-->
+<div class="w-main m-auto">
+    <div class="w-main m-b-10">
+        <div class="w-82 fl m-l-10"> <img src="pics/icon01.png" alt=""/>
+            <p class="text-c fs-16 ftc-000000 line-h36">全正品</p>
+        </div>
+        <div class="w-82 fl m-l-195"> <img src="pics/icon02.png" alt=""/>
+            <p class="text-c fs-16 ftc-000000 line-h36">超保障</p>
+        </div>
+        <div class="w-82 fl m-l-195"> <img src="pics/icon03.png" alt=""/>
+            <p class="text-c fs-16 ftc-000000 line-h36">最放心</p>
+        </div>
+        <div class="w-82 fl m-l-195"> <img src="pics/icon04.png" alt=""/>
+            <p class="text-c fs-16 ftc-000000 line-h36">快捷付</p>
+        </div>
+        <div class="w-82 fr m-r-10"> <img src="pics/icon04.png" alt=""/>
+            <p class="text-c fs-16 ftc-000000 line-h36">限时达</p>
+        </div>
+    </div>
+</div>
+
+<!--web footer start-->
+<div class="w-all w-minw bg-c1d1d1d ovhidden p-t-15">
+    <div class="w-main m-auto footernav">
+        <dl class="fl w-100 m-l-30 m-r-50">
+            <dt><a href="#" class="fl dsblock fs-18 ftc-ffffff line-45 w-all text-c">新手上路</a></dt>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">售后流程</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">购物流程</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">订购方式</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">在线支付</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">公司转账</a></dd>
+        </dl>
+        <dl class="fl w-100 m-l-30 m-r-50">
+            <dt><a href="#" class="fl dsblock fs-18 ftc-ffffff line-45 w-all text-c">配送方式</a></dt>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">货到付款</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">区域配送</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">支付查询</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">支付方式说明</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">如何送礼</a></dd>
+        </dl>
+        <dl class="fl w-100 m-l-30 m-r-50">
+            <dt><a href="#" class="fl dsblock fs-18 ftc-ffffff line-45 w-all text-c">购物指南</a></dt>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">常见问题</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">订购流程</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">注册新会员</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">团购/机票</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">联系客服</a></dd>
+        </dl>
+        <dl class="fl w-100 m-l-30 m-r-50">
+            <dt><a href="#" class="fl dsblock fs-18 ftc-ffffff line-45 w-all text-c">售后服务</a></dt>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">退换货原则</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">售后服务保证</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">换货流程</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">退款说明</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">返修/退换货</a></dd>
+        </dl>
+        <dl class="fl w-100 m-l-30 m-r-50">
+            <dt><a href="#" class="fl dsblock fs-18 ftc-ffffff line-45 w-all text-c">关于我们</a></dt>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">网站故障报告</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">选机咨询</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">投诉与建议</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">节能补贴</a></dd>
+            <dd><a href="#" class="fl dsblock fs-14 ftc-c4c4c4 line-h36 w-all text-c">礼品</a></dd>
+        </dl>
+        <div class="w-180 fr m-r-50">
+            <h3 class="fs-18 ftc-ffffff line-45">联系我们</h3>
+            <p class="fs-20 ftc-ca0303 line-h36">400-000-0000</p>
+            <p class="fs-14 ftc-ffffff line-h36"> 周一至周日8:00-18:00 <br/>
+                （仅收市话费）</p>
+            <p class="fs-14 ftc-e3393a line-40 bd-s-ce3393a ovhidden bg_icon tel_icon footer_tel">24小时在线客服</p>
+        </div>
+    </div>
+</div>
+<div class="w-all w-minw bg-c000000 ovhidden">
+    <div class="w-main m-auto text-c fs-14 ftc-777777 line-60"> © 2005-2017 版权所有，并保留所有权利。 </div>
+</div>
+<!--web footer end-->
+</body>
+</html>

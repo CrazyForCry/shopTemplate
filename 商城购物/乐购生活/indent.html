@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--引入提交订单内容样式-->
+		<link rel="stylesheet" type="text/css" href="css/indent.css"/>
+		<!--jquery引入-->
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--提交订单js   index引入-->
+		<script src="js/indent.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="top" class="box">
+			<div class="box1200 clear">
+				<p id="topleft" class="left">legochina.cn</p>
+				<p id="topright" class="right">
+					<span class="topspan">欢迎光临乐购，请</span>
+					<a class="graya" href="enter.html">登录</a>
+					<span class="topspan">\</span>
+					<a class="reda" href="login.html">注册</a>
+				</p>
+			</div>
+			
+		</div>
+			<!--导航栏-->
+		<div id="navmax" class="box1200 clear">
+			<div id="logo">
+				<img src="img/indentLOGo.png"/>
+			</div>
+			<div class="box1200 clear h30" >
+				<form id="navmaxform" action="#" method="post" >
+					<input id="navmaxtext" type="text" name="text" placeholder="设计中的设计" />
+					<input id="navmaxsub" type="button" value=""/>
+				</form>
+			</div>
+		</div>
+		
+		
+		<!--主内容区-->
+		
+		<div class="box1200">
+			<p class="size18">填写并核对订单信息</p>
+			<!--收货地址-->
+			<div id="address" class="public ">
+				<p class="clear"><span>收货人信息</span><span class="blue">新增收货地址</span></p>
+				<div id="addressMin" class="clear">
+					<!--选中信息公用框-->
+					<div class="xuanzhongPublic xuanzhongPublicaddress">
+						运送  四川
+						<img class="xuanzhong" src="img/xuanzhong.png"/>
+					</div>
+					<div class="addressCon" >
+						<span>成都市</span>
+						<span>高新区</span>
+						<span>天府新谷11号楼</span>
+					</div >
+					<div class="addressConbc">
+						默认收货地址
+					</div>
+				
+					<div id="addressMore">
+							更多收货地址：
+					</div>
+					<!--选中信息公用框-->
+					<div class="xuanzhongPublic ">
+						运送  四川
+						<img class="xuanzhong" src="img/xuanzhong.png"/>
+					</div>
+					<div class="addressCon" >
+						<span>成都市</span>
+						<span>高新区</span>
+						<span>天府新谷11号楼</span>
+					</div >
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			<!--支付方式-->
+			<div id="alipay" class="public clear">
+				<p class="clear"><span>支付方式</span></p>
+				<div class="xuanzhongPublic xuanzhongPublicaddress">
+					货到付款
+					<img class="xuanzhong" src="img/xuanzhong.png"/>
+				</div>
+				<div class="xuanzhongPublic">
+					微信支付
+					<img class="xuanzhong" src="img/xuanzhong.png"/>
+				</div>
+				
+				<div class="xuanzhongPublic">
+					信用卡
+					<img class="xuanzhong" src="img/xuanzhong.png"/>
+				</div>
+				<div class="xuanzhongPublic">
+					银行卡
+					<img class="xuanzhong" src="img/xuanzhong.png"/>
+				</div>
+				<div class="xuanzhongPublicM">
+					更多&gt;&gt;
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			<!--送货清单-->
+			<div id="repertoire" class="public clear">
+				<p class="clear"><span>送货清单</span>  <span class="blue">返回购物车修改</span> <span class="blue">价格说明</span></p>
+				<div id="repertoireL" class="clear"> 
+					<p>配送方式</p>
+					<div class=" clear">
+						<div class="xuanzhongPublic xuanzhongPublicaddress">
+							顺丰快递
+							<img class="xuanzhong" src="img/xuanzhong.png"/>
+						</div>
+					</div>
+					<p class="clear"><span>付款方式：</span><span>现金</span>  <span>修改</span></p>
+					<p class="clear"><span>配送时间：</span><span>预计8月30日12:00-16:00送达</span>  <span>修改</span></p>
+				</div>
+				<div id="repertoireR" class="clear">
+					<div id="repertoireRBook">
+						<img src="img/book-min.png"/>
+					</div>
+					<p>从你的全世界路过</p>
+					<p>1</p>
+					<p>有货</p>
+				</div>
+				
+				
+				
+			</div>
+			<!--发票信息-->
+				<p id="masig">发票信息：</p>
+				<p id="masigCon" class="clear"><span>普通发票（电子）</span><span>个人</span><span>明细</span><span>修改</span></p>
+				<div id="bordertop" class="clear">
+					<p><span>1</span>件商品</p>
+					<p>总商品金额：<span>41.00</span></p>
+					<p>运费：<span>6.00</span></p>
+					<p>应付金额：<span>47.00</span></p>
+				</div>
+				<div id="input" class="clear box1200">
+					<p>配送至<input type="text"  value="成都高新区三环内天府新谷11号1101" /></p>
+
+					<p>收货人<input type="text"  value="136******88" /></p>
+					<p>提交订单</p>
+				</div>
+		</div>
+		
+		
+		
+		
+	<!--页脚-->
+		<div class="box" id="footer">
+			<p class="box recommendTitle"></p>
+			<div class="box" id="footermax">
+				<div id="footertop">
+					<div class="footertop">
+						
+					</div>
+					<div id="footertop2" class="footertop">
+						
+					</div>
+					<div id="footertop3" class="footertop">
+						
+					</div>
+					<div id="footertop4"  class="footertop">
+						
+					</div>
+				</div>
+			</div>
+			<div id="footerCenter" class=" clear">
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul class="footermin">
+					<li class="footerminbox">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>账户管理</li>
+					<li>会员优惠</li>
+				</ul>
+			</div>
+			<div id="footerbut">
+				<a href="#">公司简介</a>|<a href="#">Investor&nbsp;Relations</a>|<a href="#">网站联盟</a>|<a href="#">乐购招商</a>|<a href="#">机构销售</a>|<a href="#">手机乐购</a>|<a href="#">官方Blog</a>|<a href="#">热词搜索</a>
+				<p><span>Copyrigth</span> <span>(C)</span> <span>乐购网</span> <span>2004-2016</span> <span>All</span> <span>Rights</span> <span>Reserved</span> </p>
+			</div>
+		</div>
+	</body>
+</html>

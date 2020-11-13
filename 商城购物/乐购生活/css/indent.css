@@ -1,0 +1,287 @@
+.size18{
+	color: #666;
+	font-size: 18px;
+}
+/*蓝色字体颜色 手型鼠标指针*/
+.blue{
+	color: #1080e9;
+	cursor: pointer;
+}
+
+/*顶部修改样式*/
+#navmax #navmaxform{
+	margin-top: 16px;
+	float: right;
+}
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+#top #topleft{
+	text-indent: 270px;
+}
+
+
+/*收货地址*/
+#address p:nth-child(1),#address p:nth-child(1) span:nth-child(1){
+	height: 60px;
+	background-color: #f2f2f2;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#address p:nth-child(1) span:nth-child(2){
+	float: right;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 60px;
+}
+
+
+#addressMin{
+	margin-left: 20px;
+	
+}
+
+.xuanzhongPublic{
+	cursor: pointer;
+	width: 126px;
+	height: 40px;
+	border: 2px solid #e6e6e6;
+	float: left;
+	margin: 30px;
+	font-size: 16px;
+	line-height:40px;
+	text-align: center;
+	position: relative;
+}
+.addressCon {
+	width: 300px;
+	height: 40px;
+	float: left;
+	margin: 30px;
+	
+	}
+.addressCon span {
+	font-size: 16px;
+	line-height:40px;
+	text-align: center;
+	margin-right: 10px;
+}
+.addressConbc{
+	background-color: #999999;
+	color: #fff;
+	width: 120px;
+	height: 40px;
+	float: left;
+	margin: 30px;
+	font-size: 16px;
+	line-height:40px;
+	text-align: center;
+}
+#addressMore{
+	width: 120px;
+	font-size: 16px;
+	margin-left: 46px;
+}
+
+
+#alipay p:nth-child(1),#alipay p:nth-child(1) span:nth-child(1){
+	height: 60px;
+	background-color: #f2f2f2;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#alipay p:nth-child(1) span:nth-child(2){
+	float: right;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 60px;
+}
+
+
+.xuanzhongPublicM{
+	cursor: pointer;
+	width: 126px;
+	height: 26px;
+	float: left;
+	margin: 30px;
+	font-size: 16px;
+	padding-top: 14px;
+	text-align: center;
+}
+/*送货清单*/
+#repertoire{
+	border-bottom: solid 2px #e6e6e6;
+}
+#repertoire>p:nth-child(1),#repertoire>p:nth-child(1) span:nth-child(1){
+	height: 60px;
+	background-color: #f2f2f2;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#repertoire>p:nth-child(1) span:nth-child(2){
+	cursor: pointer;
+	float: right;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 60px;
+}
+#repertoire>p:nth-child(1) span:nth-child(3){
+	cursor: pointer;
+	float: right;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 60px;
+}
+
+
+/*左边*/
+#repertoireL{
+	float: left;
+	width: 470px;
+	
+	
+}
+#repertoireL>p:nth-child(1){
+	height: 60px;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#repertoireL .xuanzhongPublic{
+	    margin: 0px 10px 40px 37px;
+}
+#repertoireL>p{
+	width: 470px;
+}
+#repertoireL>p:nth-child(3) span{
+	height: 60px;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#repertoireL>p:nth-child(3) span:nth-child(1){
+	color: #b6b6b6;
+}
+#repertoireL>p:nth-child(3) span:nth-child(3){
+	color: #2d8be6;
+	float: right;
+}
+#repertoireL>p:nth-child(4) span{
+	height: 60px;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#repertoireL>p:nth-child(4) span:nth-child(1){
+	color: #b6b6b6;
+}
+#repertoireL>p:nth-child(4) span:nth-child(3){
+	color: #2d8be6;
+	float: right;
+}
+
+/*右边*/
+#repertoireR{
+	width: 720px;
+    height: 264px;
+    margin: 10px 0;
+	float: right;
+	background-color: #f2f2f2;
+	
+}
+#repertoireRBook{
+	float: left;
+	margin: 10px  0 0 20px;
+	width: 110px; 
+	height: 110px;
+}
+#repertoireR p{
+	margin: 60px 0 0 40px ;
+	float: left;
+	width: 130px;
+	font-size: 16px;
+}
+#repertoireR p:nth-child(3){
+	    margin: 60px -55px 0 175px;
+}
+
+/*发票信息*/
+#masig{
+	height: 60px;
+	text-indent: 16px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4d4d4d;
+}
+#masigCon {
+	margin-bottom: 30px;
+}
+#masigCon span{
+	margin-left: 20px;
+	font-size: 16px;
+	
+	color: #999999;
+}
+#masigCon span:nth-child(4){
+	color: #1080e9;
+	cursor: pointer;
+}
+
+#bordertop{
+	border: solid 1px #cccccc;
+	padding: 18px;
+}
+#bordertop p{ 
+	margin-right: 90px;
+	float: left;
+	color: #999999;
+	font-size: 16px;
+	
+}
+#bordertop p span{
+	color: #ff6702;
+	font-size: 18px;
+	
+}
+#bordertop p:nth-child(4){
+	color: #000;
+	float: right;
+	margin-right: 40px;
+	font-weight: bold;
+}
+#input{
+	
+}
+#input p{
+	line-height: 30px;
+	float: left;
+	font-size: 14px;
+	margin-right: 30px;
+}
+#input p:nth-child(1) input{
+	width: 350px;
+	margin-left: 10px;
+}
+#input p:nth-child(2) input{
+	margin-left: 10px;
+}
+#input p:nth-child(3){
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	float: right;
+	margin: 0;
+}

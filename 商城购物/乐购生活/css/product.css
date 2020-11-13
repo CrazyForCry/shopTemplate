@@ -1,0 +1,504 @@
+/*主展示区*/
+
+#display{
+	height: 652px;
+	background-color: #f2f2f2;
+}
+
+#display #displayTop{
+	font-size: 14px;
+	height: 56px;
+	line-height: 56px;
+	color: #8f8f8f;
+	
+}
+#display #displayTop a{
+	padding: 0 6px;
+	color: #8f8f8f;
+}
+#display #displayTop .displayTopTitle{
+	color: #333;
+	font-size: 24px;
+	font-weight: 900;
+}
+#display #displayTop  .displayTopCon{
+	font-size: 16px;	
+}
+
+
+
+#display #displayCon{
+	height: 556px;
+	background-color: #fff;
+}
+#display #displayCon #displayConBook{
+	float: left;
+	width: 424px;
+	height: 516px;
+}
+/*放大镜商品展示相关样式*/
+
+#showbox {
+	text-align: center;
+	padding: 10px 30px;
+	}
+	#showbox :nth-child(2){
+		z-index: 1000;
+	}
+#showbox span { 
+	background:url(../images/whitebg.png) repeat;
+	}
+#showsum {
+	 left:25px; margin-top:10px;
+	 }
+#showsum span {
+	 border:1px solid #ddd;
+	 }
+#showsum span.sel {
+	 border:1px solid #f60;
+	 }
+
+.showpage { 
+	width:400px; position:relative;
+	}
+.showpage a {
+	 display:block; 
+	 width:15px; 
+	 border:1px solid #ddd;
+	  height:60px; 
+	  line-height:60px;
+	   background:#eee;
+	    text-align:center;
+	     font-size:18px;
+	      position:absolute; 
+	      left:0; 
+	      top:-62px;
+	       text-decoration:none; 
+	       color:#999;}
+.showpage a#shownext { 
+	left:auto; 
+	right:0;
+	}
+.showpage a:hover { 
+	background:#ccc; 
+	color:#777;
+	}
+	
+.bianma{
+	width: 600px;
+	margin:20px 0 0 208px;
+	color: #808080;
+}	
+	
+	
+	/*右边内容显示区*/
+	
+ #displayConShop{
+	width: 696px;
+    height: 438px;
+	float: left;
+	margin: 40px;
+
+}
+ #displayConShop>p{
+ 	font-size: 16px;
+ 	padding-bottom: 20px;
+ 	color: #8f8f8f;
+ }
+ #displayConShop>p:nth-child(1){
+ 	font-size: 20px;
+ 	font-weight: 700;
+ 	color: #000000;
+ 
+ }
+ #displayConShop>p:nth-child(2){
+ 	color: #f90e0d;
+ }
+#displayConShopM{
+	padding-left: 20px;
+	height: 164px;
+	background-color:#f5f5f5;
+}
+#displayConShopM p{
+	font-size: 18px;
+	color: #6c6c6c;
+	height: 50px;
+	line-height: 50px;
+}
+#displayConShopM p img{
+	margin: 0px 12px -6px 21px ;
+}
+#displayConShopM p .redMonery{
+	color: #f90e0d;
+	font-size: 18px;
+	margin-right: 10px;
+}
+#displayConShopM p .oldMonery{
+	font-size: 18px;
+	margin-top: 10px;
+	text-decoration: line-through;
+}
+#displayConShopM p:nth-child(2) span{
+	
+	font-size: 16px;
+	margin-left: 24px;
+}
+#displayConShopM p:nth-child(2) span:nth-child(1){
+	color: #f84544;
+}
+/*种类选择*/
+#shoping{
+	margin: 20px 0 30px 10px ;
+}
+#shoping #shopingSelect{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	float: left;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 20px;
+	
+}
+#shoping .shopingSelect {
+	width: 100px;
+	height: 40px;
+	border: 2px solid #6c6c6c;
+	float: left;
+	margin: 10px 10px 0 0;
+	font-size: 18px;
+	line-height:40px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	
+}
+
+#displayConShop #number{
+	float: left;
+    width: 60px;
+	height: 40px;
+	border: 1px solid #6c6c6c;
+	
+	
+	position: relative;
+}
+#displayConShop #number input{
+	    width: 57px;
+    height: 37px;
+	text-indent: 10px;
+	font-size: 16px;
+}
+
+ .numberJia{
+ 	cursor: pointer;
+	width:20px;
+	height: 18px;
+	color: #6c6c6c;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	font-size: 18px;
+	background-color:#e6e6e6;
+	  border: #6c6c6c 1px solid;
+	 
+	 
+	 position: absolute;
+	 top:0;
+	 right: 0;
+}
+.numberjian{
+		cursor: pointer;
+	width:20px;
+	height: 18px;
+	color: #6c6c6c;
+	font-weight: bold;
+	background-color:#e6e6e6;
+	 text-align: center;
+	line-height: 20px;
+	font-size: 18px;
+	 border: #6c6c6c 1px solid;
+	 
+	 position: absolute;
+	 top:20px;
+	 right: 0;
+}
+
+#gouwu{
+	width: 192px;
+	height: 60px;
+	background-color: #ff6700;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-size: 26px;
+	margin: -10px 0px 0 30px;
+	float: left;
+}
+.tishi{
+	width: 600px;
+	margin-top:20px ;
+	color: #808080;
+}
+
+
+
+
+
+/*人气展示区样式*/
+#show{
+	height: 360px;
+}
+#show #showTitle{
+	margin-top: 6px;
+	height: 50px;
+	width: 100%;
+	border-bottom: solid 8px #ff6700;
+}
+#show #showTitle p{
+	width: 126px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: #ff6700;
+}
+/*小商品*/
+.showConMin{
+	margin-right: 30px;
+	float: left;
+	width: 210px;
+	height: 260px;
+}
+.showConMin .showConMinBook{
+	width: 126px;
+	height: 150px;
+	background-color: #fff;
+	margin-left: 30px;
+	padding: 6px 0 0 20px;
+}
+.showConMin p{
+	line-height: 22px;
+	font-size: 14px;
+	margin-left: 6px;
+}
+.showConMin p img{
+	margin-top: 4px;
+}
+.showConMin p:nth-child(4){
+	color: #f32b0c;
+}
+.showConMin p:nth-child(5) span:nth-child(1){
+	color: #f32b0c;
+	font-size: 18px;
+}
+
+.showConMin p:nth-child(5) span:nth-child(2){
+	margin-left: 20px;
+	color: #c0c0c0;
+	font-size: 18px;
+	text-decoration: line-through;
+}
+/*点击人气推荐 的小商品背景效果*/
+.showConMinClick{
+	background-color: #f2f2f2;
+}
+
+
+
+/*主内容区*/
+#contentL{
+		float: left;
+	width: 318px;
+	border: solid 1px #e6e6e6;
+}
+#contentL p:nth-child(1){
+	text-indent: 10px;
+	font-size: 22px;
+	height: 42px;
+	width: 100%;
+	background-color: #f4f4f4;
+	line-height: 42px;
+	color: #666666;
+}
+#contentL .showConMin{
+	margin: 14px 0 30px 60px; 
+	height: 300px;
+	border-bottom: solid 1px #e6e6e6 ;
+}
+
+/**/
+#contentR{
+	margin-left: 10px;
+	float: left;
+	width: 870px;
+}
+.contentR_con{
+	width: 870px;
+}
+.contentR_con_min div{
+	text-align: center;
+}
+.contentR_con_min p{
+	text-indent: 60px;
+	line-height: 30px;
+}
+.disnone{
+	display: none;
+}
+#contentRTitle{
+	margin-top: 6px;
+	height: 50px;
+	width: 100%;
+	border-bottom: solid 8px #ff6700;
+}
+#contentRTitle p{
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	text-align: center;
+	
+}
+#contentRTitle p.titleclick{
+	color: #fff;
+	background-color: #ff6700;
+
+}
+#contentRp{
+	height: 150px;
+	width: 100%;
+}
+#contentRpone .contentRpone1{
+	width: 170px;
+	line-height: 47px;
+}
+#contentRpone .contentRpone1 p:nth-child(1){
+	font-size: 72px;
+	color: #f8380c;
+	text-align: center;
+}
+#contentRpone .contentRpone1 p:nth-child(2){
+	font-size: 20px;
+	color: #999999;
+	text-indent: 90px;
+}
+#contentRpone .contentRpone2{
+	padding-left: 34px;
+	width: 280px;
+	line-height: 28px;
+}
+#contentRpone .contentRpone2 p{
+	line-height: 26px;
+}
+#contentRpone>div{
+	margin-top: 46px;
+	float: left;
+}
+#contentRpone .contentRpone3{
+	width: 386px;
+	line-height: 28px;
+}
+#contentRpone .contentRpone3 ul li{
+	width: 143px;
+	float: left;
+	list-style: none;
+	font-size: 16px;
+	color: #666666;
+	padding-right: 50px;
+}
+
+.contentRmin{
+	width: 100%;
+	height: 146px;
+	border-bottom: solid 2px #f5f5f5;
+}
+.contentRmin .contentRminL{
+	height: 126px;
+	width: 132px;
+	line-height: 20px;
+	padding: 20px 0 0 38px;
+	text-align: center;
+	color: #bcbcbc;
+	float: left;
+}
+.contentRmin .contentRminC{
+	height: 126px;
+	width: 464px;
+	float: left;
+	padding: 20px 0 0 38px;
+	font-size: 14px;
+	color: #656565;
+}
+.contentRmin .contentRminR{
+	height: 126px;
+	width: 148px;
+	float: right;
+	padding: 20px 0 0 38px;
+	font-size: 14px;
+	color: #656565;
+}
+.contentRmin .contentRminR p{
+	line-height: 20px;
+}
+.contentRmin .contentRminR p:nth-child(1){
+	background: url(../img/toptouxiang.png) no-repeat -4px 0;
+	height: 40px;
+	text-indent: 40px;
+	line-height: 50px;
+}
+.contentRmin .contentRminR p:nth-child(2){
+	color: #f3c43d;
+}
+.contentRmin .contentRminR p:nth-child(3){
+	color: #808080;
+}
+.pingjia{
+	padding-left: 40px;
+	height: 40px;
+	background-color: #f5f5f5;
+	line-height: 40px;
+}
+.pingjia li a{
+	color: #666666;
+	font-size: 16px;
+	float: left;
+	margin-right: 40px;
+	
+}
+#contentR .pingjia li a.current{
+	color: #f8380c;
+}
+
+/*页码*/
+#page ul{
+	float: right;
+}
+
+/*点击页码时显示的效果*/
+#page ul li.liclick{
+	color: #f53a0c;
+	border: none;
+}
+#page ul li{
+	font-size: 18px;
+	color: #999;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+	width: 34px;
+	height: 34px;
+	border: solid 1px  #f5f5f5;
+	margin: 20px 10px 0 0 ;
+}
+#page ul li:nth-child(7){
+	border: none;
+}
+#page ul li:nth-child(8){
+	width: 58px;
+	height: 34px;
+}

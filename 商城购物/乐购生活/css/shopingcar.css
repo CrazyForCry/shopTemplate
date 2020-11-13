@@ -1,0 +1,307 @@
+/*顶部修改样式*/
+#navmax #navmaxform{
+	margin-top: 16px;
+	float: right;
+}
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+#top #topleft{
+	text-indent: 270px;
+}
+
+#navmax .navmax_text{
+	font-size: 14px;
+}
+#navmax .navmax_text .navmax_text_select{
+	width: 170px;
+	height: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.misg,.misg span{
+	margin-top: 60px;
+	font-size: 20px;
+	color: #f60;
+}
+#shoptitle{
+	height: 60px;
+	width: 1200px;
+	background-color: #f2f2f2;
+}
+#shoptitle p{
+	line-height: 60px;
+	color: #808080;
+	font-size: 18px;
+	font-family: "黑体";
+	float: left;
+}
+#shoptitle p:nth-child(1){
+	text-indent: 10px;
+	width: 264px;
+}
+#shoptitle p:nth-child(2){
+	width: 376px;
+}
+#shoptitle p:nth-child(3){
+	width: 118px;
+}
+#shoptitle p:nth-child(4){
+	width: 184px;
+	text-align: center;
+}
+#shoptitle p:nth-child(5){
+	width: 130px;
+}
+#shoptitle p:nth-child(6){
+	width: 126px;
+}
+
+
+
+
+.shopCon{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.border_top{
+	border-top: solid 4px #dfdfdf;
+}
+.shopConMin {
+	border-bottom: solid 1px #dfdfdf ;
+}
+.shopConMin .shopConMin_img{
+	width: 206px;
+	height: 206px;
+	float: left;
+}
+.shopCon p{
+	font-size: 16px;
+	color: #4c4c4c;
+	margin-top: 30px;
+	float: left;
+}
+.shopConMin p:nth-child(1){
+	text-indent: 10px;
+	width: 50px;
+}
+.shopConMin p:nth-child(3){
+	width: 376px;
+}
+.shopConMin p:nth-child(4){
+	width: 118px;
+}
+.shopConMin p:nth-child(5){
+	width: 194px;
+	text-align: center;
+	position: relative;
+}
+.shopConMin p:nth-child(5) input{
+	margin: auto;
+	width: 126px;
+	height: 22px;
+	text-indent: 63px;
+	
+}
+.shopConMin p:nth-child(5) :nth-child(2){
+	cursor: pointer;
+	width: 30px;
+	height: 24px;
+	color: #4c4c4c;
+	font-size: 16px;
+	border: solid 1px #cccccc;
+	position: absolute;
+	top: 0px;
+    left: 32px;
+}
+.shopConMin p:nth-child(5) :nth-child(3){
+	cursor: pointer;
+	width: 30px;
+	height: 24px;
+	color: #4c4c4c;
+	font-size: 16px;
+	border: solid 1px #cccccc;
+	position: absolute;
+	top: 0px;
+    left: 130px;
+}
+.shopConMin p:nth-child(6){
+	width: 130px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.shopConMin p:nth-child(7){
+	
+	width: 126px;
+}
+.shopConMin p:nth-child(7) span{
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+
+#indent{
+	border: solid 2px #cccccc;
+	padding-left: 20px;
+	height: 60px;
+}
+#indentL{
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+#indentL p{
+	float: left;
+	font-size: 16px;
+	color: #808080;
+	margin-right: 20px;
+	font-family: "黑体";
+}
+
+#indentR{
+	float: right;
+}
+#indentR p{
+	font-family: "黑体";
+	line-height: 60px;
+	float: left;
+}
+#indentR p span{
+	font-family: "黑体";
+	line-height: 60px;
+	
+}
+
+#indentR p:nth-child(1){
+	color: #808080;
+	font-size: 16px;
+	width: 186px;
+}
+#indentR p:nth-child(1) span{
+	margin: 0 6px;
+	color: #ff6600;
+	font-size: 22px;
+}
+#indentR p:nth-child(2){
+	width: 160px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #4c4c4c;
+}#indentR p:nth-child(2) span{
+	margin: 0 6px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ff6600;
+}
+#indentR p:nth-child(3){
+	cursor: pointer;
+	text-align: center;
+	height: 60px;
+	width: 128px;
+	font-size: 20px;
+	color: #fefefe;
+	background-color: #ff6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*人气展示区样式*/
+#show{
+	height: 360px;
+}
+#show #showTitle{
+	margin-top: 6px;
+	height: 50px;
+	width: 100%;
+	border-bottom: solid 8px #ff6700;
+}
+#show #showTitle p{
+	width: 126px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: #ff6700;
+}
+/*小商品*/
+.showConMin{
+	margin-right: 30px;
+	float: left;
+	width: 210px;
+	height: 260px;
+}
+.showConMin .showConMinBook{
+	width: 126px;
+	height: 150px;
+	background-color: #fff;
+	margin-left: 30px;
+	padding: 6px 0 0 20px;
+}
+.showConMin p{
+	line-height: 22px;
+	font-size: 14px;
+	margin-left: 6px;
+}
+.showConMin p img{
+	margin-top: 4px;
+}
+.showConMin p:nth-child(4){
+	color: #f32b0c;
+}
+.showConMin p:nth-child(5) span:nth-child(1){
+	color: #f32b0c;
+	font-size: 18px;
+}
+
+.showConMin p:nth-child(5) span:nth-child(2){
+	margin-left: 20px;
+	color: #c0c0c0;
+	font-size: 18px;
+	text-decoration: line-through;
+}
+/*点击人气推荐 的小商品背景效果*/
+.showConMinClick{
+	background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

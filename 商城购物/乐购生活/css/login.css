@@ -1,0 +1,157 @@
+/*顶部修改样式*/
+#navmax #navmaxform{
+	margin-top: 16px;
+	float: right;
+}
+body #navmax{
+	height: 74px;
+	box-shadow: 0px 1px 14px -2px #a6a6a6;
+}
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+
+#topleft{
+	
+	text-indent: 270px;
+	
+}
+.topleft{
+	height: 74px;
+	font-size: 24px;
+	
+	line-height: 74px;
+	padding-left: 270px;
+	position: relative;
+}
+.topleft p{
+	height: 50px;
+	width: 200px;
+	font-size: 24px;
+
+	
+}
+
+.topleft p:nth-child(2){
+	position: absolute;
+	right: 180px;
+	bottom: 10px;
+}
+.topleft p:nth-child(2) a{
+	font-size: 18px;
+	color: #666666;
+}
+.topleft p:nth-child(2) span:nth-child(1){
+	color: #a6a6a6;
+	font-size: 18px;
+}
+
+/*主体部分注册*/
+.publicCon{
+	width: 402px;
+	height: 46px;
+	
+	margin: 50px auto 0 auto;
+	border: solid 1px #a6a6a6;
+	position: relative;
+}
+.publicConText{
+	font-size: 20px;
+	width: 128px;
+	height: 46px;
+	line-height: 46px;
+	margin-left: 20px;
+}
+.publicConInput input{
+	margin-top:1px;
+	border: none;
+	font-size: 14px;
+	
+	outline: none;
+	
+	height: 44px;
+	line-height: 45px;
+	width: 252px;
+}
+.publicCon_hint{
+	color: #C0C0C0;
+	padding-left: 10px;
+	height: 46px;
+	width: 110%;
+	line-height: 46px;
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+/*普通提示*/
+.publicCon_hint_common{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #4C4C4C;
+}
+/*星星专用重点提示*/
+.publicCon_hint_crux{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: red;
+}
+/*输入框提示文字设置*/
+.publicConInput input::-webkit-input-placeholder{
+	font-size: 14px;
+	color: #d6d6d6;
+}
+/*立即注册按钮*/
+.publicCon:nth-child(8) {
+	margin: 10px auto;
+	
+}
+.publicCon:nth-child(8) input{
+	
+	background-color: #ff6600;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	border: none;
+	width: 400px;
+	height: 46px;
+}
+/*验证码*/
+.publicConInput  .verfication_code {
+	width: 128px;
+}
+ .publicConImg{
+ 	margin-top: 2px;
+	width: 124px;
+	height: 42px;
+	background-color: #1a83e5;
+}
+/*获取验证码*/
+.publicConSub{
+ 	margin-top: 2px;
+	width: 124px;
+	height: 42px;
+	background-color: #e6e6e6;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/*协议*/
+.protocol{
+	margin:10px  auto;
+	width: 400px;
+	height: 46px;
+}
+.protocol span{
+	color: #ff8a54;
+}
+/*页脚修改样式*/
+#footer .recommendTitle{
+	border-bottom: solid 4px #e6e6e6;
+	margin-bottom: 40px;
+}

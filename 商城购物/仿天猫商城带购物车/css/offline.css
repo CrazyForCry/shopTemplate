@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 品牌页样式 */
+#mainer{background: #f2f2f2; }
+#nav{border-bottom: solid #333 1px;}
+.member_nav{width: 100%;position: absolute; top: 70px; font-size: 16px; border-bottom:solid 1px #000;  height: 44px; line-height: 44px;}
+
+.member_nav a{margin: 0 15px; padding: 8px 5px; border-bottom: #fff 3px solid;}
+.member_nav ul{   margin-left: 300px;}
+.member_nav li{float: left}
+.member_nav .cur a{ border-bottom: #000 3px solid;}
+
+#header{ background: none;}
+.logo_offline{background: url("../images/offline_03.jpg") center no-repeat; float: left; width:121px; margin: 20px 0; height:43px;}
+
+
+#flashbox{ float:  left; width: 986px;  height: 408px; overflow: hidden;   }
+#flashbox img{ width: 100%;}
+#flashbox ul{ width: 100%; height: 408px;} 
+#flashbox li{  height: 408px;}
+
+.small_box{ width: 197px; margin-left: 7px;float: left;}
+.small_box a{ display: block;  height:204px; }
+
+.hang{padding:30px 0 10px; clear: both;}
+
+.hang .t{ height: 30px; background: #353535; border-left: #c00 solid 3px; padding-left: 20px; font-size:20px; line-height: 30px; color: #ddd; margin-bottom:10px;   } 
+
+
+.hang1  .c {clear: both;}
+.hang1  .c .left{ width: 288px; height: 308px; border: solid 1px #bbb; background: #353333; margin: 0 0 20px;}
+.hang1  .c .right{ width: 888px; height: 308px; margin: 0 0 20px; border: solid 1px #bbb;}
+ .hang1  .c .left .desc{ background: #fff;height: 200px; padding: 15px;}
+ .hang1  .c .left h2{ }
+ .hang1  .c .left p{ text-indent: 24px; }
+ 
+ .hang1  .c .left .act{ padding: 15px; }
+ .hang1  .c .left .act .brand_logo{float: left; width: 150px;}
+ .hang1  .c .left .act .redlink{ float: left;  padding:5px 20px; margin-top: 10px;  background: #d00; color: #fff; border-radius: 10px; }
+  
+ 
+ 
+ .hang2 .c{ width: 1205px;}
+ .hang2 .c a{ float: left; width: 25%;}
+ .hang2 .c a img{ margin:0 10px 8px 0;  }

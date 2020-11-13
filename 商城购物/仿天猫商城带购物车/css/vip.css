@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* 品牌页样式 */
+#mainer{background: #f2f2f2; }
+#nav{border-bottom: solid #333 1px;}
+.member_nav{width: 100%;position: absolute; top: 70px; font-size: 16px; border-bottom:solid 1px #000;  height: 44px; line-height: 44px;}
+
+.member_nav a{margin: 0 15px; padding: 8px 5px; border-bottom: #fff 3px solid;}
+.member_nav ul{   margin-left: 300px;}
+.member_nav li{float: left}
+.member_nav .cur a{ border-bottom: #000 3px solid;}
+
+#header{ background: none;}
+.logo_offline{background: url("../images/offline_03.jpg") center no-repeat; float: left; width:121px; margin: 20px 0; height:43px;}
+
+
+#flashbox{  height: 385px; overflow: hidden;   }
+#flashbox img{ width: 100%;}
+#flashbox ul{ width: 100%; height: 385px;} 
+#flashbox li{  height:385px;}
+ 
+
+.hang{padding:30px 0 10px; clear: both;}
+
+.hang .t{ height: 30px; background: #353535; border-left: #c00 solid 3px; padding-left: 20px; font-size:20px; line-height: 30px; color: #ddd; margin-bottom:10px;   } 
+
+
+.hang1  .c {clear: both;} 

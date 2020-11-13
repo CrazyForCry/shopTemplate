@@ -1,0 +1,500 @@
+
+/*banner*/
+.pptbox{
+				width: 400px;
+				height: 100px;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			.pptbox  .innerwrapper{
+				width:2800px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+				height: 100px;
+				list-style: none;
+				position: absolute;
+				left: -400px;
+			}
+			
+			.innerwrapper li
+			{
+				width:400px;
+				height:100px;
+				float: left;
+			}
+			.innerwrapper li a
+			{
+				display: block;
+			}
+			
+			.innerwrapper li a img
+			{
+				width: 400px;
+				height:100px;
+				display:block;
+			}
+			
+			.btnleft{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				left:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -10px 4px;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.btnright{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				right:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -54px 4px;
+				cursor: pointer;
+				z-index: 100;
+				
+			}
+			
+			/*控制按钮开始*/
+			
+			.controls{
+				width:96px;
+				position: absolute;
+				left:152px;
+				bottom:10px;
+				list-style: none;
+			}
+			.controls li{
+				width: 20px;
+				height:20px;
+				background-color: gold;
+				float: left;
+				margin-right:6px;
+				text-align: center;
+				border-radius:10px ;
+				cursor: pointer;
+			}
+			
+			.controls li.current
+			{
+				background-color:aqua;
+				color: brown;
+				
+			}
+			
+			/*控制按钮结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*隐藏*/
+.disnone{
+	display: none;
+}
+/*banner和滑动菜单*/
+#banner_nenu #banner{
+	width: 1000px;
+	height: 400px;
+	margin-bottom: 60px;
+}
+#banner_nenu #menu{
+	width: 200px;
+	height: 400px;
+}
+#banner_nenu #menu .menu_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family: "黑体";
+	color: #fff;
+	font-size: 18px;
+	background-color: #93d46f;
+	}
+ .menu_list_title_num{
+ 	margin-left: 80px;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	color: #fff;
+		width: 20px;
+		height: 20px;
+		background-color: #f60;
+	}
+	
+#banner_nenu #menu .menu_list .menu_list_con{
+	width: 200px;
+	height: 116px;
+		border-bottom: solid 2px #b3b3b3;
+		overflow: hidden;
+}
+.menu_list_con_num{
+	margin-left: 180px;
+	width: 20px;
+	height: 20px;
+	background-color: #f60;
+	text-align: center;
+ 	font-size: 16px;
+ 	color: #fff;
+}
+#banner_nenu #menu .menu_list .menu_list_con div{
+	height: 98px;
+	width: 100px;
+	color: #333333;
+	font-size: 14px;
+	font-family: "黑体";
+	
+ 	
+}
+#banner_nenu #menu .menu_list .menu_list_title{
+	width: 200px;
+	height: 40px;
+	background-color: #fff ;
+	border-bottom: solid 2px #b3b3b3;
+	overflow: hidden;
+	line-height: 22px;
+}
+#banner_nenu #menu .menu_list .menu_list_title div{
+	width: 100px;
+	color: #333333;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+
+
+
+
+
+
+
+/*人气展示区样式*/
+
+#show #showTitle{
+	margin-top: 6px;
+	height: 50px;
+	width: 100%;
+	border-bottom: solid 8px #ff6700;
+}
+#show #showTitle p{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: #ff6700;
+}
+/*小商品*/
+.showConMin{
+	margin-right: 30px;
+	float: left;
+	width: 210px;
+	height: 260px;
+}
+.showConMin .showConMinBook{
+	width: 126px;
+	height: 150px;
+	background-color: #fff;
+	margin-left: 30px;
+	padding: 6px 0 0 20px;
+}
+.showConMin p{
+	line-height: 22px;
+	font-size: 14px;
+	margin-left: 6px;
+}
+.showConMin p img{
+	margin-top: 4px;
+}
+.showConMin p:nth-child(4){
+	color: #f32b0c;
+}
+.showConMin p:nth-child(5) span:nth-child(1){
+	color: #f32b0c;
+	font-size: 18px;
+}
+
+
+/*点击人气推荐 的小商品背景效果*/
+.showConMinClick{
+	background-color: #f2f2f2;
+}
+
+/*新书推荐*/
+.New_books_t{
+	width: 904px;	
+}
+ .New_books_title{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: solid 6px #f60;
+}
+ .New_books_title span:nth-child(1){
+	display: inline-block;
+	text-align: center;
+	width: 42px;
+	height: 40px;
+	background-color: #ff6600;
+	color: #fff;
+	font-size: 28px;
+	font-family: "黑色";
+}
+ .New_books_title span:nth-child(2){
+	display: inline-block;
+	height: 40px;
+	font-size: 22px;
+	color: #333;
+	font-family: "黑色";
+}
+
+#New_books .New_books_left{
+	width: 900px;
+	height: 500px;
+	border: solid 2px #e6e6e6;
+	border-top: none;
+}
+#New_books .New_books_left .New_books_left_con{
+	width: 180px;
+	height: 250px;
+	float: left;
+}
+#New_books .New_books_left .New_books_left_con .New_books_left_con_img{
+	text-align: center;
+}
+#New_books .New_books_left .New_books_left_con p{
+	font-family: "黑体";
+	padding-left: 26px;
+	line-height: 24px;
+	font-size: 14px;
+}
+#New_books .New_books_left .New_books_left_con :nth-child(2){
+	color: #333;
+}
+
+#New_books .New_books_left .New_books_left_con :nth-child(3){
+	color: #808080;
+}
+#New_books .New_books_left .New_books_left_con :nth-child(4) :nth-child(1){
+	font-size: 18px;
+	color: #f91616;
+	margin-right: 10px;
+}
+#New_books .New_books_left .New_books_left_con :nth-child(4) :nth-child(2){
+	font-size: 18px;
+	color: #b2b2b2;
+	text-decoration: line-through;
+}
+
+
+/*右边盒子*/
+#New_books .New_books_right{
+	width: 280px;
+	height: 500px;
+	border: solid 2px #e6e6e6;
+	    margin-top: -1px;
+	    overflow: hidden;
+}
+
+
+
+ .New_books_right_Title{
+	text-align: center;
+	font-size: 18px;
+}
+#New_books .New_books_right li{
+	line-height: 46px;
+	width: 100%;
+	cursor: pointer;
+}
+#New_books .New_books_right li .lispan{
+	display: inline-block;
+	height: 54px;
+    text-indent: 24px;
+    border-bottom: solid 2px #e7e7e7;
+    width: 260px;
+    
+}
+
+.New_books_right_con div{
+	width: 250px;
+	line-height: 20px;
+}
+.New_books_rightred{
+	float: left;
+	text-indent: 6px;
+	display: inline-block;
+	color: red;
+	margin-right: 6px;
+}
+
+
+
+/*独家提供*/
+/*滑动菜单*/
+#exclusive{
+	border-bottom: solid 2px #e6e6e6;
+}
+#exclusive .New_books_title ul{
+	margin-top: 10px;
+}
+#exclusive .New_books_title ul li{
+	cursor: pointer;
+	padding: 0 10px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	font-size: 18px;
+	font-family: "黑体";
+	color: #333;
+}
+/*移入后添加的样式*/
+#exclusive .New_books_title .New_books_title_li li.current{
+	background-color: #f60;
+	color: #fff;
+}
+
+
+/*内容部分*/
+
+.exclusive_con_box{
+	height: 532px;
+	overflow: hidden;
+}
+.exclusive_con_small{
+	width: 1128px;
+}
+
+
+/*猜你喜欢和独家提供公用小内容盒子样式*/
+.exclusive_con_min{
+	margin-top: 16px;
+	float: left;
+	width: 188px;
+	height: 250px;
+}
+.exclusive_con_min_img{
+	height: 150px;
+	width: 150px;
+	margin: auto;
+}
+.exclusive_con_min p{
+	font-family: "黑体";
+	padding-left: 26px;
+	line-height: 24px;
+	font-size: 14px;
+}
+ .exclusive_con_min :nth-child(2){
+	color: #333;
+}
+
+ .exclusive_con_min :nth-child(3){
+	color: #808080;
+}
+ .exclusive_con_min :nth-child(4) :nth-child(1){
+	font-size: 18px;
+	color: #f91616;
+	margin-right: 10px;
+}
+ .exclusive_con_min :nth-child(4) :nth-child(2){
+	font-size: 18px;
+	color: #b2b2b2;
+	text-decoration: line-through;
+}
+/*左右按钮*/
+#exclusive_con .imgleft{
+	margin-top: 230px;
+	background: url(../img/nav.png) no-repeat -2px 14px #ececec;
+	width: 36px;
+	height: 70px;
+}
+#exclusive_con .imgright{
+	margin-top: 230px;
+	background: url(../img/nav.png) no-repeat -46px 14px #ececec;
+	width: 36px;
+	height: 70px;
+}
+/*点击箭头高亮显示*/
+
+.content #exclusive_con .imgsub{
+	background-color: #7e7e7e;
+}
+
+
+/*移入高亮显示*/
+#exclusive_con .hover{
+	background-color: #cccccc;
+}
+/*控制按钮*/
+.exclusive_controls{
+	margin: 10px auto;
+    width: 210px;
+}
+.exclusive_controls li{
+	border-radius: 10px;
+	float: left;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #ccc;
+}
+
+/*移入控制按钮显示的样式*/
+.exclusive_controls li.currents{
+	background-color: #f60;
+}
+
+/*猜你喜欢*/
+.youlove_con{
+	margin-left: 36px;
+}
+<!--人文精选-->
+#choiceness .choiceness_min{
+	width: 200px;
+	height: 160px;
+}
+#choiceness .choiceness_min .choiceness_min_left{
+	width: 110px;
+}
+#choiceness .choiceness_min .choiceness_min_left P{
+	line-height: 26px;
+}
+#choiceness .choiceness_min .choiceness_min_left P:nth-child(1){
+	margin-top: 10px;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+#choiceness .choiceness_min .choiceness_min_left P:nth-child(2){
+	font-size: 16px;
+	color: #a5a5a5;
+}
+#choiceness .choiceness_min .choiceness_min_left P:nth-child(3){
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 10px;
+	background-color: red;
+	text-align: center;
+}
+
+
+#choiceness .choiceness_min .choiceness_min_right{
+	width: 90px;
+	text-align: center;
+}

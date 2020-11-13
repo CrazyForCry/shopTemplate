@@ -1,0 +1,265 @@
+/*字体大小*/
+.fs14{
+	font-size: 14px;
+}
+
+.fs24{
+	font-size: 24px;
+}
+
+
+
+/*字体颜色*/
+.f60{
+	color: #f60;
+}
+
+
+
+.c_333{
+	color: #333;
+}
+
+
+.ht{
+	font-family: "黑体";
+}
+
+/*外边距*/
+
+.m_t6{
+	margin-top: 6px;
+}
+.box{
+	width: 100%;
+}
+.box1200{
+	width: 1200px;
+	margin: auto;
+}
+
+/*设置浮动*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/*选中框图片效果*/
+.xuanzhong{
+	display: none;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*页头公共样式*/
+/*页头样式*/
+#top{
+	background-color: #101010;
+	height: 30px;
+}
+
+#topleft{
+	font-size: 14px;
+	text-indent: 206px;
+	line-height: 30px;
+	color: #e6e6e6;
+}
+
+#topright{
+	line-height: 30px;
+	padding-right: 10px;
+}
+ #topright .topspan{
+	padding: 0 3px;
+	color: #bfbfbf;
+}
+ #topright .graya{
+ 	color: #bfbfbf;
+ }
+  #topright .reda{
+ 	color: #fd6902;
+ }
+
+
+
+/*页脚公共样式*/
+#footer{
+	position: relative;
+}
+#footermax{
+	background-color: #f2f2f2;
+	height: 126px;
+}
+#footertop{
+	margin: auto;
+	width: 872px;
+	height: 126px;
+	
+}
+.footertop{
+	height: 50px;
+	width: 150px;
+	background: url(../img/footer_bg.png) no-repeat;
+	float: left;
+	margin: 34px;
+}
+#footertop2{
+	background-position: 0px -52px;
+}
+#footertop3{
+	background-position: 0px -104px;
+}
+#footertop4{
+	background-position: 0px -156px;
+}
+
+ .recommendTitle{
+	border-bottom: solid 8px #ff6701;
+	
+	padding: 30px 0 10px 0px;
+}
+
+
+#footerCenter{
+	margin: 40px auto;
+	width: 760px;
+}
+.footermin{
+	margin: 0 30px;
+	float: left;
+	
+}
+.footermin li{
+	text-align: center;
+	padding: 10px;
+	color: #A7A7A7;
+}
+#footerCenter .footermin .footerminbox{
+	color:#000000;
+	font-size: 18px;
+}
+#footerbut{
+	text-align: center;
+}
+#footerbut a{
+	color: #7b7b7b;
+	margin: 20px;
+}
+#footerbut p{
+		margin: 26px;
+}
+#footerbut span{
+	color: #7b7b7b;
+	padding: 10px;
+}
+
+
+/*导航栏的样式*/
+#navmax{
+	height: 100px;
+	
+	position: relative;
+}
+
+/*logo*/
+#navmax #logo{
+	width: 200px;
+	height: 130px;
+	position: absolute;
+	top: -30px;
+}
+#navmax #logo img{
+	width: 200px;
+	height: 130px;
+}
+/*搜索框*/
+#navmaxform{
+	width: 440px;
+	height: 38px;
+	margin: 6px  0 10px 500px;
+	float: left;
+	position: relative;
+}
+#navmaxtext::-webkit-input-placeholder{
+	color: #999;
+}
+#navmaxtext{
+	text-indent: 16px;
+	width: 440px;
+	height: 38px;
+	line-height: 38px;
+	border: solid 2px #ff6700;
+}
+/*搜索按钮*/
+#navmaxsub{
+	border: 0;
+	position: absolute;
+	top:0px;
+	right: -2px;
+	width: 54px;
+	height: 40px;
+	
+	
+	background: #ff6700 url(../img/bgicon.png) no-repeat 4px 4px;
+}
+/*搜索框外部盒子高*/
+.h30{
+	height: 64px;
+}
+
+/*导航栏*/
+#navmax #navmaxcon{
+	list-style: none;
+	margin-left: 230px;
+	height: 30px;
+}
+#navmax #navmaxcon li,#navmax #navmaxcon li a{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 10px;
+	padding: 0 12px;
+	float: left;
+	color: #000000;
+}
+
+/*购物车*/
+#navmaxshop{
+	width: 200px;
+	height: 42px;
+	margin: 6px  6px 6px 0px;
+	
+	float: right;
+}
+#navmax #navmaxshop #shopminleft,#navmax #navmaxshop #shopminleft a{
+	
+	width: 100px;
+	height: 42px;
+	float: left;
+	
+	
+	font-size: 16px;
+	text-indent: 42px;
+	line-height: 42px;
+	color: white;
+	
+	background: #ff6700 url(../img/bgicon.png) no-repeat  2px -42px;
+}
+#navmax #navmaxshop #shopminright{
+	background-color: #ebebeb;
+	width: 100px;
+	height: 42px;
+	float: left;
+	
+	
+	
+	text-align: center;
+	line-height: 42px;
+	font-size: 18px;
+	color: #666;
+}
+
+

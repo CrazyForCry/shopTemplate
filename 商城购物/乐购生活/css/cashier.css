@@ -1,0 +1,204 @@
+/*顶部修改样式*/
+
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+#top #topleft{
+	text-indent: 270px;
+}
+
+
+
+
+/*提示支付有效期*/
+#content #hint{
+	margin-top: 20px;
+}
+#content #hint span:nth-child(1){
+	color: #949494;
+	font-size: 18px;
+	line-height: 26px;
+}
+#content #hint span:nth-child(2){
+	color: #0d80e8;
+	font-size: 18px;
+	line-height: 26px; 
+	text-decoration: underline;
+	float: right;
+}
+#content #hintTine{
+	margin-bottom: 20px;
+	height: 60px;
+	background-color: #f2f2f2;
+}
+#content #hintTine p{
+		line-height: 60px;
+		font-size: 16px;
+		color: #4c4c4c;
+}
+#content #hintTine p span{
+	color: #f22b29 ;
+	line-height: 60px;
+		font-size: 16px;
+	
+}
+#content #hintTine p:nth-child(1){
+	float: left;
+	
+}
+#content #hintTine p:nth-child(2){
+	float: right ;
+	margin-right: 100px;
+} 
+
+
+/*乐购支付方式*/
+#content #legoPay #legoPayTop p:nth-child(1){
+	float: left;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	background-color: #ff6700;
+	color: #fff;
+	text-align: center;
+	
+}
+#content #legoPay #legoPayTop p:nth-child(2){
+	margin-left: 10px ;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #cfcfcf;
+} 
+#content #legoPay #backCard{
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	padding: 30px;
+}
+
+#backCardleft{
+	width: 700px;
+	float: left;
+}
+
+.backCardNew{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.backCardNew p:nth-child(1){
+	font-size: 16px;
+	float: left;
+	width: 124px;
+	height: 34px;
+	border: solid 1px #bfbfbf;
+	text-align: center;
+	line-height: 34px;
+	margin-right: 20px;
+	position: relative;
+}
+
+
+.backCardNew p:nth-child(2){
+	font-size: 16px;
+	float: left;
+	width: 350px;
+	height: 34px;
+	border: solid 1px #bfbfbf;
+	
+	margin-right: 20px;
+}
+.backCardNew p:nth-child(2) span{
+	font-size: 16px;
+	width: 116px;
+	text-align: center;
+	line-height: 34px;
+	display: inline-block;
+}
+.backCardred{
+	color: #ff6601;
+}
+.backCardgay{
+	color: #bfbfbf;
+}
+.backCardAdd{
+	cursor: pointer;
+	font-size: 16px;
+		float: left;
+	width: 120px;
+	height: 34px;
+	background-color: #999;
+	text-align: center;
+	line-height: 34px;
+	margin-right: 20px;
+	color: #fff;
+}
+#content #legoPay #backCard>p:nth-child(2){
+	font-size: 16px;
+		float: right;
+	width: 224px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	margin-right: 20px;
+}
+#content #legoPay #backCard>p:nth-child(2) span{
+	color: #ff6700;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+}
+
+
+
+#legoPay>p:last-child{
+	cursor: pointer;
+	float: right;
+	height: 62px;
+	width: 230px;
+	background-color: #ff6700;
+	color: #fff;
+	text-align: center;
+	line-height: 62px;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+
+/*其他支付*/
+#otherPay p:nth-child(1){
+	float: left;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	background-color: #76b0f5;
+	color: #fff;
+	text-align: center;
+	
+}
+#otherPay p:nth-child(2){
+	margin-left: 10px ;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #cfcfcf;
+} 
+#otherCon{
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	padding: 30px;
+}
+#otherCon{
+	font-size: 16px;
+	color: #5a5a5a;
+}
+#otherCon span{
+	font-size: 16px;
+	margin: 0 10px;
+	color: #5a5a5a;
+}

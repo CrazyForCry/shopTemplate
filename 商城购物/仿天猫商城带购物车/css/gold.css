@@ -1,0 +1,54 @@
+
+@charset "utf-8";#mainer {background: none repeat scroll 0 0 #f2f2f2;padding-top: 20px;}
+#nav {border-bottom: 1px solid #333;}
+.member_nav {border-bottom: 1px solid #000;font-size: 16px;height: 44px;line-height: 44px;position: absolute;top: 70px;width: 100%;}
+.member_nav a {border-bottom: 3px solid #fff;margin: 0 15px;padding: 8px 5px;}
+.member_nav ul {margin-left: 300px;}
+.member_nav li {float: left;}
+.member_nav .cur a {border-bottom: 3px solid #000;}
+#header {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.logo_raise {background: url("../images/gold_01.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);float: left;height: 43px;margin: 20px 0;width: 121px;}
+#flashbox {height: 341px;margin-bottom: 15px;overflow: hidden;}
+#flashbox img {width: 100%;}
+#flashbox ul {height: 341px;width: 100%;}
+#flashbox li {height: 341px;}
+.hang {clear: both;margin: 30px 0 10px;}
+.hang1 {background: none repeat scroll 0 0 #fff;}
+
+.hang1 .t {background: url("../images/gold_27.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);border-bottom: 1px solid #aaa;color: #555;font-size: 20px;font-weight: bold;height: 60px;line-height: 60px;padding-left: 20px;}
+.raise_left {float: left;width: 900px;}
+.raise_right {float: right;width: 265px;}
+.hang1 .c {border-bottom: 1px dotted #aaa;clear: both;padding: 20px;}
+.hang1 .c .pic {float: left;margin-right: 40px;min-height: 300px;width: 460px;}
+.hang1 .c .info {float: left;width: 350px;}
+.hang1 .c .info h2 {line-height: 35px;}
+.hang1 .c .info .desc {margin: 10px 0;}
+.hang1 .pricelist {margin: 15px 0;}
+.hang1 .pricelist li {float: left;width: 20%;}
+.hang1 .c .info .hightlight {background: none repeat scroll 0 0 #b81b22;border-radius: 15px;color: #fff;float: left;font-size: 16px;margin: 10px 0;padding: 3px 20px;}
+.hang1 .c .info .hightlight .price {font-size: 20px;}
+.hang1 .c .info .typelist dl {clear: both;}
+.hang1 .c .info .typelist dt {float: left;font-size: 16px;padding-top: 8px;width: 60px;}
+.hang1 .c .info .typelist dd {float: left;width: 280px;}
+.hang1 .c .info .typelist dd a {border: 1px solid #aaa;float: left;margin: 5px 3px;padding: 5px 10px;transition: none 0s ease 0s ;}
+.hang1 .c .info .typelist dd a.cur, .hang1 .c .info .typelist dd a:hover {border: 2px solid red;padding: 4px 9px;}
+.hang1 .c .info .typelist dd a.disable {border: 1px dotted #ccc; color:#bbb;}
+.hang1 .c .info .typelist dd a.disable:hover {border: 1px dotted #ccc;padding: 5px 10px;}
+.box {background: none repeat scroll 0 0 #fff;border: 1px solid #ccc;border-radius: 3px;}
+.box .t{font-size: 18px;height: 43px;line-height: 43px;margin: 5px 0;padding-left: 15px; border-bottom:1px solid #ccc;}
+.hang2 .t {background: url("../images/gold_13.jpg") no-repeat scroll 20px center rgba(0, 0, 0, 0);font-size: 18px;height: 43px;line-height: 43px;margin: 5px 0;padding-left: 70px;}
+.hang2 .c { font-size: 14px;line-height: 25px;padding: 15px;}
+.hang2 .c .big_price {font-size: 18px;}
+.hang3 a {display: block;margin-top: 10px;}
+
+.hang4 { padding-bottom:15px;}
+.hang4 .t{}
+.hang4 .c {padding: 15px 0 0 15px; clear:both;}
+.hang4 .desc {float: left;width: 180px; margin-left:10px;}
+.hang4 .pic1 {background: url("../images/gold_22.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);float: left;height: 50px;width: 50px;}
+.hang4 .pic2 {background: url("../images/gold_25.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);float: left;height: 50px;width: 50px;}
+
+.hang5 .t .more{ margin-right: 10px; font-size:12px; color:#e80;}
+.hang5 .c{ }
+.hang5 .c li{ margin:12px; padding-left:12px;background: url("../images/news-list-icons-8f4e534.png") 0 8px no-repeat;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.hang5 .c  li:nth-child(even) {background-position: 0 -73px;}

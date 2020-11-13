@@ -1,0 +1,22 @@
+
+/*内外边距重置*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*清除浮动*/
+.clear:after{
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}

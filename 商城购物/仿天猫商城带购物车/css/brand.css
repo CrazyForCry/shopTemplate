@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* 品牌页样式 */
+body{background:#f5f5f5;}
+.brand_nav{ font-size: 16px;background: url("../images/brand_09.png") center no-repeat; height: 44px; line-height: 44px;}
+.brand_nav a{color: #fff; } 
+.brand_nav .right{ width:204px; text-align: right; display: block;  background: url("../images/brand_04.png") center no-repeat #171314 ;}
+#header{ background: none;}
+.logo_brand{background: url("../images/logoBrand.gif") center no-repeat; display: block; width: 100%; height:110px;}
+#flashbox{ text-align: right;  height: 480px; overflow: hidden;   }
+#flashbox img{ width: 100%;}
+#flashbox ,#flashbox ul{ width: 100%; height: 480px;} 
+#flashbox li{  height: 480px;}
+
+.brand_hang{padding-bottom: 35px; padding-top: 16px;}
+
+.brand_hang .t{ height: 100px; }
+.brand_hang .t1_1{ background:url("../images/brand_07.png") no-repeat center left;}
+.brand_hang .t1_2{ background:url("../images/brand_02.png") no-repeat center left;}
+.brand_hang .t2{ background:url("../images/brand_05.png") no-repeat center;}
+.brand_hang .t3{ background:url("../images/brand_08.png") no-repeat center;}
+.brand_hang .t4{ background:url("../images/brand_12.png") no-repeat center;}
+.brand_hang .t5{ background:url("../images/brand_11.png") no-repeat center;}
+
+.hang1{ background:url("../images/banner_bg.gif");}
+.hang1 .bigbrand{ width: 450px; margin-right: 40px;}
+.hang1 .bigbrand .c{ height: 664px; background: #eee; }
+.hang1 .weedbrand{ width: 700px;}
+
+.hang1 .weedbrand .c .w{ display: block;float: left;line-height: 0; }
+.hang1 .weedbrand .w1{   margin-bottom: 9px;}
+.hang1 .weedbrand .w2{ width: 344px; margin-right: 12px;}
+.hang1 .weedbrand .w3{ width: 344px;}
+.hang1 .weedbrand{ width: 700px;}
+.hang1 .bigbrand .pic{ margin-left: -38px; width: 488px; display: block;}
+.hang1 .shaow{ margin-top: 15px; height: 5px; background: #567;}
+
+.hang2{ background: #e7e6e4;}
+.hang2 .c{padding: 10px 0 30px; background: #fff;  }
+.hang2 .c ul{overflow: hidden; height: 230px;}
+.hang2 .c ul li{margin-left: -2px; margin-right: -5px; height: 230px;background:url("../images/brand_14.png") repeat-x center left ;}
+.hang2 .c a.brand_logo{ display: block; margin: 28px 0 0 0; float: left; width: 149px; text-align: center; }
+.hang2 .shaow{  background:url("../images/brand_10.jpg") no-repeat center top; height: 13px;}
+
+.hang3{ background:url("../images/banner_bg.gif");}
+.hang3 .c{ background: #373737; height: 488px;}
+.hang3 .tvbox{ width: 800px;opacity: 0.5; line-height: 0;}
+.hang3 .tigger{ width:390px;}
+
+.hang3 .tigger .small .pic{  float: left; margin-right: 10px; }
+.hang3 .tigger .small .title{ float: left;  font-size: 20px; color: #aaa; padding-top: 20px;}
+
+.hang3 .tigger .big .title{  font-size: 28px; color: #eee; padding-top: 20px; line-height:50px;}
+
+.hang3 .tigger .big .jiao{background:url("../images/banner_jiao.png") no-repeat; width: 13px; height: 41px; left: -13px; top:80px; display: block; position: absolute;}
+.hang3 .tigger div.cur { background: #262626;}
+.hang3 .tigger div { clear: both; position: relative;}
+.hang3 .tigger div .big{padding: 10px 10px 10px 25px;display: none; height: 196px;  margin-right: 10px; color: #aaa; line-height:22px;}
+.hang3 .tigger div .small{padding: 10px 10px 10px 15px;display: block;  height: 107px; }
+.hang3 .tigger div.cur .big{display: block;}
+.hang3 .tigger div.cur .small{display: none;}
+
+
+.hang4{ background: #e7e6e4;}
+.hang4 .c{padding: 10px   30px 30px; background: #fff; border: solid 1px #aaa;  }
+.hang4 .c ul{overflow: hidden;}
+.hang4 .c ul li{ float: left;background:url("../images/brand_jiao2.png")  no-repeat center right; padding-right: 12px;height: 28px;line-height: 28px; margin: 17px 44px 0 0;}
+.hang4 .c ul li a{ }
+.hang4 .c ul li.big1{ font-size: 16px;}
+.hang4 .c ul li.big2{ font-size: 18px;}
+.hang4 .c ul li.black span{ background: black; color: #fff; padding: 0 7px;}
+.hang4 .c a.brand_logo{ display: block; margin: 28px 0 0 0; float: left; width: 149px; text-align: center; }
+.hang4 .shaow{  background:url("../images/brand_10.jpg") no-repeat center top; height: 13px;}
+
+
+.hang5{ background:url("../images/banner_bg.gif");}
+.hang5 .left{ width: 590px;line-height: 0;}
+.hang5 .right{ width: 590px;line-height: 0;}
+
+.hang5 .c{clear: both; background: #bfc1c0;}
+.hang5 .c .news_box{ width: 294px;  height: 301px;float: left;}
+.hang5 .c .news_box .title1{background:url("../images/brand_03.png") no-repeat; height: 63px;}
+.hang5 .c .news_box .title2{background:url("../images/brand_13.png") no-repeat center; height:73px;}
+
+.hang5 .c .news_pic{ width: 896px; float: left; margin-top: 10px;}
+
+
+.hang6{ background: #e7e6e4;}
+
+
+.hang6 .addfav{display: inline-block;height: 22px; padding: 0 15px;background: #cc0000;border-radius: 11px;color: #fff;font-size: 12px;line-height: 22px; margin-top: 8px;}
+
+.hang6 .addfav i{background: url(http://img03.taobaocdn.com/tps/i3/T1F05SXB4cXXcGdY6f-38-12.png) 0 0 no-repeat; 
+display: inline-block;width: 12px;height: 12px;line-height: 12px;margin: 0 6px -2px 0px;vertical-align: middle\9;overflow: hidden;transition: none;}
+.brand_hang .t6 i{ background:url("../images/brand_06.png") no-repeat center; display: block; width:368px; height: 51px;margin: 0 auto;padding: 40px 0 25px 0;position: relative; z-index: 10; }
+.brand_hang .t6 .line{ position: absolute; top: 68px;background: #8f8e91; height: 1px; width: 100%;}
+.brand_hang .t6 .more{position: absolute;top: 67px;right: 33px;}
+
+.hang6 .big{ width: 456px; height: 623px;  float: left; margin-bottom: 16px;}
+.hang6 .big .pic{ height: 456px; height: 456px ;position: relative; display: block;}
+.hang6 .big .pic .shaow{ padding-top: 6px;width: 456px; color: #fff;height: 64px;position: absolute;top: 386px;   background:rgba(31, 31, 31, 0.52); text-align: center; }
+
+.hang6 .big .pic .shaow .title1{ font-size: 16px; }
+.hang6 .big .pic .shaow .title2{ font-size: 14px;}
+.hang6 .big .desc{ height: 120px; background: #fff; text-align: center; padding-top: 40px;}
+
+.hang6 .small{ margin-left: 14px;float: left; width: 230px; height: 316px;}
+.hang6 .small .pic{ height: 230px;display: block;}
+.hang6 .small .desc{ height: 60px; background: #fff;padding: 10px 10px 0 8px;}

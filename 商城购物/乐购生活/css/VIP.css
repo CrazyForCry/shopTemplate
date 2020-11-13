@@ -1,0 +1,388 @@
+/*顶部修改样式*/
+#navmax{
+	height:75px;
+}
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+#top #topleft{
+	text-indent: 270px;
+}
+#navmaxD{
+	padding: 22px 180px 0  270px;
+}
+#navmaxD p{
+	float: left;
+	width: 360px;
+	font-size: 26px;
+	color: #9a9a9a;
+}
+#navmaxD ul{
+	float: right;
+}
+#navmaxD ul li,#navmaxD ul li a{
+	float: left;
+	color: #676767;
+	font-size: 18px;
+	margin-right: 40px;
+	width: 90px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+body #navmax #navmaxD ul .limouseover{
+	background-color: #ff6700;
+	color: #fff;
+}
+
+
+/*banner*/
+#banner{
+	background-color: #457397;
+	height: 476px;
+	    padding-top: 16px;
+}
+#banner #bannerL{
+	float: left;
+	width: 230px;
+	height: 476px;
+	background-color: #fff;
+}
+#banner #bannerL>p:first-child{
+	background-color: #ff6700;
+	color: #fff;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	margin: 10px 2px;
+}
+#banner #bannerL .bannerL_left{
+	padding-top: 40px;
+	height: 101px;
+	width: 100%;
+	background-image: url(../img/top_focus_lucky_1.png);
+}
+#banner #bannerL .bannerL_left p{
+	line-height: 20px;
+}
+#banner #bannerL .bannerL_one{
+	text-indent: 6px;
+    background-position: -14px -58px;
+}
+ .bannerL_left p:nth-child(1){
+	text-indent: 10px;
+	color: #1a1a1a;
+	font-size: 20px;
+	margin-bottom: 10px;
+	
+}
+#banner #bannerL .bannerL_two{
+    background-position: -14px -192px;
+}
+#banner #bannerL .bannerL_two p{
+	text-indent: 24px;
+}
+#banner #bannerL .bannerL_three{
+	text-indent: 20px;
+    background-position: -14px -333px;
+}
+#banner #bannerL .bannerL_one :nth-child(1){
+	font-size: 20px;
+	color: #333;
+}
+
+#banner #bannerC{
+	margin: 0 10px 0 6px;
+	float: left;
+	width: 724px;
+	height: 476px;
+	background-color: #EA3927;
+}
+/*banner*/
+.pptbox{
+				width: 400px;
+				height: 100px;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			.pptbox  .innerwrapper{
+				width:2800px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+				height: 100px;
+				list-style: none;
+				position: absolute;
+				left: -400px;
+			}
+			
+			.innerwrapper li
+			{
+				width:400px;
+				height:100px;
+				float: left;
+			}
+			.innerwrapper li a
+			{
+				display: block;
+			}
+			
+			.innerwrapper li a img
+			{
+				width: 400px;
+				height:100px;
+				display:block;
+			}
+			
+			.btnleft{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				left:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -10px 4px;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.btnright{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				right:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -54px 4px;
+				cursor: pointer;
+				z-index: 100;
+				
+			}
+			
+			/*控制按钮开始*/
+			
+			.controls{
+				background-color: #acacac;
+				width:150px;
+				position: absolute;
+				left:152px;
+				bottom:10px;
+				list-style: none;
+			}
+			.controls li{
+				width: 20px;
+				height:20px;
+				background-color: gold;
+				float: left;
+				margin-right:6px;
+				text-align: center;
+				border-radius:10px ;
+				cursor: pointer;
+			}
+			
+			.controls li.current
+			{
+				background-color:aqua;
+				color: brown;
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+#banner #bannerR{
+	float: left;
+	width: 230px;
+	height: 476px;
+	background-color: #fff;
+}
+#bannerRTop{
+	padding: 20px 0;
+}
+
+#bannerRTop p:nth-child(1){
+	height: 44px;
+	width: 100%;
+	
+	
+	background-image:url(../img/toptouxiang.png);
+	background-position: 30px -4px;
+	background-repeat: no-repeat;
+	
+}
+
+#bannerRTop p:nth-child(1) span:nth-child(1){
+	font-size: 14px;
+	color: #4d4d4d;
+	display: inline-block;
+	text-indent: 68px;
+}
+
+
+#bannerRTop p:nth-child(1) span:nth-child(3){
+	color: #acacac;
+	display: inline-block;
+	text-indent: 68px;
+}
+
+.ledou{
+	text-indent: 40px;
+	color: #787878;
+	margin: 42px 0;
+}
+
+.denglu div{
+	margin-top: 30px;
+}
+.denglu p{
+	margin-top: 30px;
+	color: #a5a5a5;
+	text-align: center;
+}
+
+
+
+/*活动展示样式*/
+#activity{
+	background-color: #f5f5f5;
+	height: 180px;
+	padding-top: 20px;
+}
+
+#activity .activity_min{
+	margin-left: 10px ;
+	padding-left:10px ;
+	width: 280px;
+	height: 140px; 
+}
+.activity_one{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_two{
+	background: url(../img/big_plus.png) no-repeat 0px 0px ;
+}
+.activity_three{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_four{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_min_font22{
+	font-size: 22px;
+	color: #333;
+}
+.activity_min_font14{
+	font-size: 14px;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+/*兑换券*/
+.legoquanT{
+	width: 100%;
+	height: 56px;
+	border-bottom: solid 8px #ff6700;
+}
+.legoquanT>p{
+	width: 190px;
+	font-size: 24px;
+	background-color: #ff6700;
+	color: #fff;
+	line-height: 56px;
+	text-align: center;
+}
+
+
+/*小件商品*/
+.legoquanConMin{
+	float: left;
+	width: 210px;
+	height: 290px;
+	background-color: #f5f5f5;
+	margin: 15px;
+	position: relative;
+}
+.legoquanConMinC{
+	background: url(../../项目所用图片/bgicon.png) no-repeat  10px -34px;
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: red;
+	font-size: 24px;
+	text-indent: 10px;
+	text-align: center;
+	line-height: 50px;
+}
+.legoquanConMin p:nth-child(2){
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+}
+.legoquanConMin p:nth-child(3){
+	height: 20px;
+	width: 100%;
+	line-height: 20px;
+	text-align: center;
+	color: #f3412a;
+}
+.legoquanConMin p:nth-child(3) span{
+	font-size: 16px;
+	color: #f3412a;
+}
+.legoquanConMin p:nth-child(4){
+	height: 30px;
+	width: 120px;
+	margin-left: 50px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background-color: #ff6700;
+}
+/*小件商品样式结束*/
+/*限量图标样式*/
+.legoquanCImg{
+	position: absolute;
+	top: 168px;
+	left: 0;
+}
+
+
+
+.VIPCon{
+	float: left;
+	width: 366px;
+	height: 370px;
+	margin: 40px 20px 20px 10px;
+}
+.VIPCon .VIPConImg{
+	width: 364px;
+	height: 224px;
+	margin-bottom: 30px;
+	
+}
+ .VIPCon p:nth-child(2){
+ 	font-size: 26px;
+ 	text-indent: 10px;
+ }
+ .VIPCon p:nth-child(3){
+ 	margin-top: 14px;
+ 	font-size: 14px;
+ 	text-indent: 10px;
+ 	color: #9e9e9e;
+ }

@@ -1,0 +1,326 @@
+/*顶部修改样式*/
+#navmax{
+	height:75px;
+}
+#navmax #logo img{
+	width: 260px;
+	height: 105px;
+}
+#top #topleft{
+	text-indent: 270px;
+}
+#navmaxD{
+	padding: 22px 180px 0  270px;
+}
+#navmaxD p{
+	float: left;
+	width: 360px;
+	font-size: 26px;
+	color: #9a9a9a;
+}
+#navmaxD ul{
+	float: right;
+}
+#navmaxD ul li,#navmaxD ul li a{
+	float: left;
+	color: #676767;
+	font-size: 18px;
+	margin-right: 40px;
+	width: 90px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+#navmaxD ul .limouseover{
+	background-color: #ff6700;
+	color: #fff;
+}
+
+
+
+
+
+#content{
+	padding-top: 40px;
+}
+
+.content_left{
+	width: 310px;
+	background-color: #fafafa;
+}
+.content_right{
+	width: 850px;
+}
+
+
+
+/*左边样式*/
+			
+#bannerR{
+	width: 100%;
+	
+}
+#bannerRTop{
+	padding: 20px 0;
+}
+
+#bannerRTop p:nth-child(1){
+	height: 44px;
+	width: 100%;
+	
+	
+	background-image:url(../img/toptouxiang.png);
+	background-position: 30px -4px;
+	background-repeat: no-repeat;
+	
+}
+
+#bannerRTop p:nth-child(1) span:nth-child(1){
+	font-size: 14px;
+	color: #4d4d4d;
+	display: inline-block;
+	text-indent: 68px;
+}
+
+
+#bannerRTop p:nth-child(1) span:nth-child(3){
+	color: #acacac;
+	display: inline-block;
+	text-indent: 68px;
+}
+.ledou{
+	text-indent: 40px;
+	color: #787878;
+	margin: 42px 0;
+}
+
+}
+
+.ledou2{
+    background: url(../img/icon_u_worth_2.png) no-repeat 20px 1px;
+}
+.ledou3{
+    background: url(../img/icon_u_worth_1.png) no-repeat 20px 1px;
+}
+
+.denglu div{
+	margin-top: 30px;
+}
+.denglu p{
+	margin-top: 30px;
+	color: #a5a5a5;
+	text-align: center;
+}
+
+/*活动展示样式*/
+#activity{
+	padding-top: 20px;
+}
+
+#activity .activity_min{
+	margin: 20px 10px ;
+	padding-left:10px ;
+	width: 280px;
+	height: 140px; 
+}
+.activity_one{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_two{
+	background: url(../img/big_plus.png) no-repeat 0px 0px ;
+}
+.activity_three{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_four{
+	background: url(../img/car.png) no-repeat 0px 0px ;
+}
+.activity_min_font22{
+	font-size: 22px;
+	color: #333;
+}
+.activity_min_font14{
+	font-size: 14px;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.misg,.misg span{
+	margin-top: 60px;
+	font-size: 20px;
+	color: #f60;
+}
+#shoptitle{
+	height: 60px;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+#shoptitle p{
+	line-height: 60px;
+	color: #808080;
+	font-size: 18px;
+	font-family: "黑体";
+	float: left;
+}
+#shoptitle p:nth-child(1){
+	text-indent: 10px;
+	width: 264px;
+}
+#shoptitle p:nth-child(2){
+	width: 240px;
+}
+#shoptitle p:nth-child(3){
+	width: 118px;
+}
+#shoptitle p:nth-child(4){
+	width: 184px;
+	text-align: center;
+}
+
+
+
+
+
+.shopCon{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.border_top{
+	border-top: solid 4px #dfdfdf;
+}
+.shopConMin {
+	border-bottom: solid 1px #dfdfdf ;
+}
+.shopConMin .shopConMin_img{
+	width: 206px;
+	height: 206px;
+	float: left;
+}
+.shopCon p{
+	font-size: 16px;
+	color: #4c4c4c;
+	margin-top: 30px;
+	float: left;
+}
+.shopConMin>p:nth-child(1){
+	text-indent: 10px;
+	width: 50px;
+}
+.shopConMin>p:nth-child(3){
+	width: 240px;
+}
+.shopConMin>p:nth-child(4){
+	width: 118px;
+}
+.pingjia{
+	width: 236px;
+	
+}
+.pingjia>p{
+	width: 100%;
+	text-align: center;
+}
+.pingjia div p{
+	margin-top: 100px;
+	width: 50%;
+	text-align: center;
+}
+#indent{
+	border: solid 2px #cccccc;
+	padding-left: 20px;
+	height: 60px;
+}
+#indentL{
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+#indentL p{
+	float: left;
+	font-size: 16px;
+	color: #808080;
+	margin-right: 20px;
+	font-family: "黑体";
+}
+
+#indentR{
+	float: right;
+}
+#indentR p{
+	font-family: "黑体";
+	line-height: 60px;
+	float: left;
+}
+#indentR p span{
+	font-family: "黑体";
+	line-height: 60px;
+	
+}
+
+#indentR p:nth-child(1){
+	color: #808080;
+	font-size: 16px;
+	width: 186px;
+}
+#indentR p:nth-child(1) span{
+	margin: 0 6px;
+	color: #ff6600;
+	font-size: 22px;
+}
+#indentR p:nth-child(2){
+	width: 160px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #4c4c4c;
+}#indentR p:nth-child(2) span{
+	margin: 0 6px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ff6600;
+}
+#indentR p:nth-child(3){
+	cursor: pointer;
+	text-align: center;
+	height: 60px;
+	width: 128px;
+	font-size: 20px;
+	color: #fefefe;
+	background-color: #ff6600;
+}
+
